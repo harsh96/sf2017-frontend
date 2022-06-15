@@ -60,7 +60,7 @@ var snap_loader;
 function loading_percent()
 {
 	
-	var n_percent = parseInt((contentLoaded/11)*100);
+	var n_percent = parseInt((contentLoaded/9)*100);
 	var c_percent = parseInt($('#percent').html());
 	
 	function inc_percent() {
