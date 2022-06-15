@@ -1,0 +1,118 @@
+{
+  "code": 0,
+  "message": {
+    "Dance": [
+      {
+        "id": 1,
+        "event": "Oneg",
+        "tagline": "yg",
+        "writeup": "bjh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Music": [
+      {
+        "id": 4,
+        "event": "fours",
+        "tagline": "hbvj",
+        "writeup": "ygvubj",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 3,
+        "event": "threeg/s",
+        "tagline": "ygubj",
+        "writeup": "ygvbuj",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "3",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 2,
+        "event": "twos",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      }
+    ]
+  },
+  "status_code": 200
+}

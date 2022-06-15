@@ -1,0 +1,136 @@
+{
+  "code": 0,
+  "message": {
+    "General Secretaries": [
+      {
+        "id": 1,
+        "name": "Aiswarya",
+        "phone": 1111111111,
+        "email": "prakharprashant.iitkgp@gmail.com",
+        "facebook": "http://google.com",
+        "linkedin": "http://google.com"
+      }
+    ],
+    "awdjqn hbejwkef quebfj": [
+      {
+        "id": 2,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 3,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 3,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      }
+    ],
+    "Events": [
+      {
+        "id": 3,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 4,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      }
+    ],
+    "Events": [
+      {
+        "id": 3,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 4,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 5,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 5,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      }
+    ],
+    "Web": [
+      {
+        "id": 6,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 7,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 8,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 9,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      },
+      {
+        "id": 10,
+        "name": "uygwieuorihjw",
+        "phone": 9999999999,
+        "email": "jbskrg@hjb.sd",
+        "facebook": "srhdgt.fdf",
+        "linkedin": "srgsrg.zdg"
+      }
+    ]
+  },
+  "status_code": 200
+}

@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="377 13 1366 768" style="enable-background:new 377 13 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#800000;}
+	.st1{fill:#780000;}
+	.st2{fill:#6E0000;}
+	.st3{fill:#640000;}
+	.st4{fill:#5A0000;}
+	.st5{fill:#500000;}
+	.st6{fill:#460000;}
+	.st7{fill:#410000;}
+	.st8{fill:#3C0000;}
+	.st9{fill:#370000;}
+	.st10{opacity:0.2;clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st11{opacity:0.4;clip-path:url(#SVGID_4_);enable-background:new    ;}
+	.st12{opacity:0.3;clip-path:url(#SVGID_6_);enable-background:new    ;}
+	.st13{opacity:0.2;clip-path:url(#SVGID_8_);enable-background:new    ;}
+	.st14{opacity:0.4;clip-path:url(#SVGID_10_);enable-background:new    ;}
+	.st15{opacity:0.3;clip-path:url(#SVGID_12_);enable-background:new    ;}
+	.st16{fill:#3D200C;}
+	.st17{fill:#0D0D0D;}
+	.st18{fill:#2E0F00;}
+	.st19{fill:#50260A;}
+	.st20{fill:#1C0501;}
+	.st21{fill:#D8D7D6;}
+	.st22{fill:#F2F1F0;}
+	.st23{fill:#0F0301;}
+	.st24{fill:#210704;}
+	.st25{fill:#333333;}
+	.st26{fill:#3D3D3D;}
+	.st27{fill:#474747;}
+	.st28{fill:#525252;}
+	.st29{fill:#5C5C5C;}
+	.st30{fill:#666666;}
+	.st31{fill:#707070;}
+	.st32{fill:#757575;}
+	.st33{fill:#7A7A7A;}
+	.st34{fill:#FFFFFF;}
+	.st35{fill:#C2C3C9;}
+	.st36{fill:#9A999E;}
+	.st37{opacity:0.3;fill:url(#SVGID_13_);enable-background:new    ;}
+	.st38{opacity:0.2;fill:url(#SVGID_14_);enable-background:new    ;}
+	.st39{fill:#160B01;}
+	.st40{clip-path:url(#SVGID_16_);}
+	.st41{opacity:0.2;fill:url(#SVGID_17_);enable-background:new    ;}
+	.st42{clip-path:url(#SVGID_19_);}
+	.st43{opacity:0.2;fill:url(#SVGID_20_);enable-background:new    ;}
+	.st44{clip-path:url(#SVGID_22_);}
+	.st45{opacity:0.2;fill:url(#SVGID_23_);enable-background:new    ;}
+	.st46{clip-path:url(#SVGID_25_);}
+	.st47{opacity:0.2;fill:url(#SVGID_26_);enable-background:new    ;}
+	.st48{clip-path:url(#SVGID_28_);}
+	.st49{fill:#636262;}
+	.st50{fill:#A09F9F;}
+	.st51{fill:#EAE8E8;}
+	.st52{fill:#F9F9F9;}
+	.st53{fill:#231308;}
+	.st54{fill:#110A03;}
+	.st55{fill:#F9E8A5;}
+	.st56{opacity:0.2;fill:url(#SVGID_29_);enable-background:new    ;}
+	.st57{clip-path:url(#SVGID_31_);}
+	.st58{opacity:0.2;fill:url(#SVGID_32_);enable-background:new    ;}
+	.st59{clip-path:url(#SVGID_34_);}
+	.st60{opacity:0.2;fill:url(#SVGID_35_);enable-background:new    ;}
+	.st61{clip-path:url(#SVGID_37_);}
+	.st62{opacity:0.2;fill:url(#SVGID_38_);enable-background:new    ;}
+	.st63{clip-path:url(#SVGID_40_);}
+	.st64{opacity:0.2;fill:url(#SVGID_41_);enable-background:new    ;}
+	.st65{clip-path:url(#SVGID_43_);}
+	.st66{display:none;opacity:0.3;fill:url(#SVGID_44_);enable-background:new    ;}
+	.st67{opacity:0.1;fill:url(#SVGID_45_);enable-background:new    ;}
+
+	.rainbow {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+opacity : 0.2;
+}
+@-webkit-keyframes rainbow {
+0% {fill: #ff0000;}
+10% {fill: #ff8000;}
+20% {fill: #ffff00;}
+30% {fill: #80ff00;}
+40% {fill: #00ff00;}
+50% {fill: #00ff80;}
+60% {fill: #00ffff;}
+70% {fill: #0080ff;}
+80% {fill: #0000ff;}
+90% {fill: #8000ff;}
+100% {fill: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {fill: #ff0000;}
+10% {fill: #ff8000;}
+20% {fill: #ffff00;}
+30% {fill: #80ff00;}
+40% {fill: #00ff00;}
+50% {fill: #00ff80;}
+60% {fill: #00ffff;}
+70% {fill: #0080ff;}
+80% {fill: #0000ff;}
+90% {fill: #8000ff;}
+100% {fill: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {fill: #ff0000;}
+10% {fill: #ff8000;}
+20% {fill: #ffff00;}
+30% {fill: #80ff00;}
+40% {fill: #00ff00;}
+50% {fill: #00ff80;}
+60% {fill: #00ffff;}
+70% {fill: #0080ff;}
+80% {fill: #0000ff;}
+90% {fill: #8000ff;}
+100% {fill: #ff0080;}
+}
+@keyframes rainbow {
+0% {fill: #ff0000;}
+10% {fill: #ff8000;}
+20% {fill: #ffff00;}
+30% {fill: #80ff00;}
+40% {fill: #00ff00;}
+50% {fill: #00ff80;}
+60% {fill: #00ffff;}
+70% {fill: #0080ff;}
+80% {fill: #0000ff;}
+90% {fill: #8000ff;}
+100% {fill: #ff0080;}
+}
+
+#door1{
+	transform-origin:left;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#door2{
+	transform-origin:right;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.open-door{
+	transform : rotateY(-90deg) !important;
+}
+</style>
+<g id="corridor_wrapper">
+	<g id="Layer_7">
+		<g id="Floor">
+			<g>
+				<polygon class="st0" points="1397.1,781 727.8,781 967.5,464 1163,464 			"/>
+				<polygon class="st1" points="1189.6,500.4 940.2,500.4 963.9,468 1167.8,468 			"/>
+				<polygon class="st2" points="1213.8,532.9 916.1,532.7 940.2,500.4 1189.6,500.4 			"/>
+				<polygon class="st3" points="1238.2,565.3 892,565.1 916,532.9 1213.8,532.9 			"/>
+				<polygon class="st4" points="1262.3,597.8 867.5,597.6 891.6,565.3 1238.2,565.3 			"/>
+				<polygon class="st5" points="1289.5,634.4 835.7,634.1 863.4,597.8 1261.8,597.8 			"/>
+				<polygon class="st6" points="1317.9,670.9 809.6,670.6 840.6,634.4 1290.2,634.4 			"/>
+				<polygon class="st7" points="1344.4,707.4 786.3,707.1 813.2,670.6 1317.9,670.9 			"/>
+				<polygon class="st8" points="1376.9,744.2 756.2,743.9 783.1,707.4 1345.8,707.4 			"/>
+				<polygon class="st9" points="1403.2,781 729.2,781 756.2,743.9 1372.2,744.2 			"/>
+			</g>
+			<polygon class="st5" points="969.8,464 943.1,464 375,781 742.8,781.5 		"/>
+			<polygon class="st6" points="966.2,469 951.8,469 562.9,781.2 742.8,781.5 		"/>
+			<g>
+				<g>
+					<defs>
+						<polygon id="SVGID_1_" points="969.8,464 943.1,464 375,781 742.8,781.5 					"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="710.1" y="460" class="st10" width="267.7" height="105.3"/>
+				</g>
+				<g>
+					<defs>
+						<polygon id="SVGID_3_" points="969.8,464 943.1,464 375,781 742.8,781.5 					"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="352.5" y="670.6" class="st11" width="472.6" height="118"/>
+				</g>
+				<g>
+					<defs>
+						<polygon id="SVGID_5_" points="969.8,464 943.1,464 375,781 742.8,781.5 					"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="545.8" y="565.3" class="st12" width="371.3" height="105.3"/>
+				</g>
+			</g>
+			<polygon class="st6" points="1151,467 1177.7,467 1745.8,784 1378,784.5 		"/>
+			<polygon class="st7" points="1154.7,472 1169.1,472 1558,784.2 1378,784.5 		"/>
+			<g>
+				<g>
+					<defs>
+						<polygon id="SVGID_7_" points="1151,467 1177.7,467 1745.8,784 1378,784.5 					"/>
+					</defs>
+					<clipPath id="SVGID_8_">
+						<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="1143" y="463" class="st13" width="267.7" height="105.3"/>
+				</g>
+				<g>
+					<defs>
+						<polygon id="SVGID_9_" points="1151,467 1177.7,467 1745.8,784 1378,784.5 					"/>
+					</defs>
+					<clipPath id="SVGID_10_">
+						<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="1295.8" y="673.6" class="st14" width="472.6" height="118"/>
+				</g>
+				<g>
+					<defs>
+						<polygon id="SVGID_11_" points="1151,467 1177.7,467 1745.8,784 1378,784.5 					"/>
+					</defs>
+					<clipPath id="SVGID_12_">
+						<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="1203.7" y="568.3" class="st15" width="371.3" height="105.3"/>
+				</g>
+			</g>
+		</g>
+		<g id="Front_wall">
+			<path class="st16" d="M1098.6,347.2"/>
+			<rect x="907.5" y="332" class="st17" width="280" height="133.1"/>
+			<g id="XMLID_18_">
+				<rect id="XMLID_150_" x="1175" y="314" class="st18" width="11" height="150"/>
+				<rect id="XMLID_146_" x="1068" y="316" class="st18" width="12" height="129"/>
+				<rect id="XMLID_142_" x="1082" y="316" class="st18" width="11" height="126"/>
+				<rect id="XMLID_138_" x="1095" y="315" class="st18" width="12" height="149"/>
+				<rect id="XMLID_134_" x="1161" y="315" class="st18" width="12" height="149"/>
+				<rect id="XMLID_122_" x="1148" y="315" class="st18" width="11" height="149"/>
+				<rect id="XMLID_118_" x="1054" y="316" class="st18" width="13" height="132"/>
+				<rect id="XMLID_114_" x="1041" y="318" class="st18" width="12" height="133"/>
+				<rect id="XMLID_96_" x="1028" y="307" class="st18" width="12" height="144"/>
+				<rect id="XMLID_95_" x="1015" y="307" class="st18" width="11" height="147"/>
+				<rect id="XMLID_70_" x="1109" y="315" class="st18" width="10" height="149"/>
+				<rect id="XMLID_51_" x="1121" y="315" class="st18" width="12" height="149"/>
+				<rect id="XMLID_49_" x="1134" y="315" class="st18" width="13" height="149"/>
+				<rect id="XMLID_48_" x="1002" y="307" class="st18" width="11" height="147"/>
+				<rect id="XMLID_31_" x="988" y="307" class="st18" width="12" height="151"/>
+				<rect id="XMLID_29_" x="976" y="307" class="st18" width="11" height="152"/>
+				<rect id="XMLID_28_" x="962" y="307" class="st18" width="12" height="152"/>
+				<rect id="XMLID_27_" x="935" y="307" class="st18" width="12" height="153"/>
+				<rect id="XMLID_25_" x="948" y="307" class="st18" width="13" height="153"/>
+				<rect id="XMLID_20_" x="922" y="306" class="st18" width="12" height="153"/>
+			</g>
+			<rect x="941.7" y="450" class="st19" width="235.3" height="19"/>
+			<g>
+				<rect x="972.9" y="340.8" width="173.1" height="128.2"/>
+				<g id="door2">
+					<rect x="1059.6" y="340.8" class="st20" width="87.1" height="128.2"/>
+					<rect x="1067.3" y="351" class="st21" width="71.7" height="51.1"/>
+					<path class="st22" d="M1067.4,389.4c0,0,52.7,8.6,71.6-38.4h-71.5L1067.4,389.4z"/>
+					<ellipse class="st23" cx="1068.3" cy="416" rx="3.2" ry="3.2"/>
+					<ellipse class="st24" cx="1067.9" cy="416" rx="1.9" ry="1.9"/>
+				</g>
+				<g id="door1">
+					<rect x="972.9" y="340.9" class="st20" width="87.1" height="128.1"/>
+					<rect x="978.9" y="351" class="st21" width="71.7" height="51.1"/>
+					<path class="st22" d="M979.2,389.4c0,0,52.7,8.6,71.6-38.4h-71.5L979.2,389.4z"/>
+					<ellipse class="st23" cx="1051" cy="416" rx="3.2" ry="3.2"/>
+					<ellipse class="st24" cx="1051.1" cy="416" rx="1.9" ry="1.9"/>
+				</g>
+			</g>
+		</g>
+		<g id="Ceiling">
+			<rect x="376.6" y="13" class="st25" width="1366.4" height="70"/>
+			<rect x="468" y="77.2" class="st26" width="1267.2" height="64.1"/>
+			<rect x="468" y="141.2" class="st27" width="1267.2" height="67.7"/>
+			<rect x="459.6" y="194.8" class="st28" width="1267.2" height="36.1"/>
+			<rect x="459.6" y="230.9" class="st29" width="1267.2" height="44.1"/>
+			<rect x="447.6" y="265" class="st30" width="1267.2" height="23.2"/>
+			<rect x="451" y="288.1" class="st31" width="1267.2" height="16.6"/>
+			<rect x="503.1" y="303.9" class="st32" width="1215" height="13.2"/>
+			<rect x="452" y="317.1" class="st33" width="1267.2" height="14.9"/>
+			<g>
+				<g>
+					<polygon class="st34" points="1013.3,305.8 1004.6,293.5 1115.3,293.5 1106.5,305.8 				"/>
+					<path class="st35" d="M1112.4,295l-6.6,9.3H1014l-6.5-9.3H1112.4 M1118.2,292h-116.5l10.8,15.3h94.8L1118.2,292L1118.2,292z"/>
+				</g>
+				<rect x="1001.7" y="288.2" class="st36" width="116.5" height="3.8"/>
+			</g>
+			<g>
+				<g>
+					<polygon class="st34" points="1022.1,327.6 1018.4,321.2 1101.4,321.2 1097.3,327.6 				"/>
+					<path class="st35" d="M1099.6,322.2l-2.9,4.4h-74.1l-2.6-4.4H1099.6 M1103.3,320.2h-86.7l4.9,8.4h76.3L1103.3,320.2
+						L1103.3,320.2z"/>
+				</g>
+				<rect x="1016.6" y="317.1" class="st36" width="86.7" height="3.1"/>
+			</g>
+			<g>
+				<g>
+					<polygon class="st34" points="992.4,267.5 976.2,240.1 1143.7,240.1 1127.6,267.5 				"/>
+					<path class="st35" d="M1139.3,242.6l-13.2,22.5H993.8l-13.2-22.5H1139.3 M1148.1,237.6H971.8L991,270H1129L1148.1,237.6
+						L1148.1,237.6z"/>
+				</g>
+				<rect x="971.8" y="230.9" class="st36" width="176.3" height="6.9"/>
+			</g>
+			<g>
+				<g>
+					<polygon class="st34" points="954.2,198.3 928.3,154.3 1193,154.3 1167.2,198.3 				"/>
+					<path class="st35" d="M1186.9,157.8l-21.7,37h-209l-21.8-37H1186.9 M1199.2,150.8h-277l30.1,51h217L1199.2,150.8L1199.2,150.8z"
+						/>
+				</g>
+				<rect x="920.8" y="141.9" class="st36" width="278.4" height="8.9"/>
+			</g>
+			<g>
+				<g>
+					<polygon class="st34" points="888.9,83.9 856.3,25.9 1263.8,25.9 1232.5,83.9 				"/>
+					<path class="st35" d="M1255.4,30.9l-25.9,48H891.8l-27-48L1255.4,30.9 M1272.2,20.9H847.7l38.3,68h349.5L1272.2,20.9
+						L1272.2,20.9z"/>
+				</g>
+				<rect x="847.7" y="13" class="st36" width="424.5" height="8.9"/>
+			</g>
+		</g>
+		<g id="Left_wall">
+			<g>
+				<polygon points="377,781 942.4,469.2 942.2,339 377,13 			"/>
+				<g id="XMLID_73_">
+					<rect id="XMLID_116_" x="647" y="48" class="st18" width="12" height="553"/>
+					<rect id="XMLID_115_" x="533" y="60" class="st18" width="13" height="605"/>
+					<rect id="XMLID_113_" x="548" y="58" class="st18" width="12" height="595"/>
+					<rect id="XMLID_112_" x="562" y="54" class="st18" width="13" height="599"/>
+					<rect id="XMLID_111_" x="632" y="51" class="st18" width="13" height="556"/>
+					<rect id="XMLID_110_" x="618" y="54" class="st18" width="12" height="579"/>
+					<rect id="XMLID_109_" x="518" y="62" class="st18" width="14" height="619"/>
+					<rect id="XMLID_108_" x="505" y="65" class="st18" width="12" height="624"/>
+					<rect id="XMLID_107_" x="491" y="13" class="st18" width="13" height="678"/>
+					<rect id="XMLID_106_" x="477" y="14" class="st18" width="12" height="693"/>
+					<rect id="XMLID_105_" x="577" y="54" class="st18" width="11" height="599"/>
+					<rect id="XMLID_104_" x="590" y="54" class="st18" width="13" height="597"/>
+					<rect id="XMLID_103_" x="604" y="54" class="st18" width="13" height="579"/>
+					<rect id="XMLID_102_" x="463" y="13" class="st18" width="12" height="694"/>
+					<rect id="XMLID_101_" x="448" y="14" class="st18" width="13" height="709"/>
+					<rect id="XMLID_100_" x="435" y="17" class="st18" width="12" height="718"/>
+					<rect id="XMLID_99_" x="420" y="15" class="st18" width="13" height="720"/>
+					<rect id="XMLID_98_" x="391" y="14" class="st18" width="13" height="722"/>
+					<rect id="XMLID_97_" x="405" y="14" class="st18" width="14" height="722"/>
+					<rect id="XMLID_94_" x="378" y="11" class="st18" width="12" height="724"/>
+					<rect id="XMLID_93_" x="930" y="322" class="st18" width="12" height="142"/>
+					<rect id="XMLID_92_" x="816" y="202" class="st18" width="13" height="316"/>
+					<rect id="XMLID_91_" x="832" y="211" class="st18" width="12" height="292"/>
+					<rect id="XMLID_90_" x="845" y="218" class="st18" width="13" height="282"/>
+					<rect id="XMLID_89_" x="915" y="307" class="st18" width="13" height="163"/>
+					<rect id="XMLID_88_" x="902" y="275" class="st18" width="11" height="195"/>
+					<rect id="XMLID_87_" x="803" y="193" class="st18" width="12" height="336"/>
+					<rect id="XMLID_86_" x="788" y="182" class="st18" width="12" height="351"/>
+					<rect id="XMLID_85_" x="773" y="164" class="st18" width="14" height="378"/>
+					<rect id="XMLID_84_" x="760" y="145" class="st18" width="12" height="406"/>
+					<rect id="XMLID_83_" x="860" y="232" class="st18" width="11" height="266"/>
+					<rect id="XMLID_82_" x="873" y="250" class="st18" width="13" height="232"/>
+					<rect id="XMLID_81_" x="887" y="263" class="st18" width="13" height="213"/>
+					<rect id="XMLID_80_" x="746" y="138" class="st18" width="12" height="423"/>
+					<rect id="XMLID_79_" x="731" y="125" class="st18" width="13" height="446"/>
+					<rect id="XMLID_78_" x="717" y="109" class="st18" width="13" height="477"/>
+					<rect id="XMLID_77_" x="703" y="113" class="st18" width="13" height="473"/>
+					<rect id="XMLID_76_" x="675" y="66" class="st18" width="13" height="520"/>
+					<rect id="XMLID_75_" x="689" y="98" class="st18" width="13" height="488"/>
+					<rect id="XMLID_74_" x="661" y="66" class="st18" width="13" height="520"/>
+					
+						<linearGradient id="SVGID_13_" gradientUnits="userSpaceOnUse" x1="375" y1="398.664" x2="942.656" y2="398.664" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#000000"/>
+						<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+					</linearGradient>
+					<polygon class="st37" points="375,781 942.7,469 942.2,339 376.6,13.7 				"/>
+				</g>
+				<g>
+					<polygon class="st19" points="967.5,339.4 584,13 376.6,13.7 942.2,339 				"/>
+					<polygon class="st18" points="672.4,14 967.4,332 967.5,339.4 584,13 				"/>
+					<polygon class="st19" points="377,682.3 942.3,450.3 942.4,469.2 377,781 				"/>
+					
+						<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="483.6665" y1="33.5291" x2="483.6665" y2="765.2667" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+						<stop  offset="1" style="stop-color:#FFFFFD"/>
+					</linearGradient>
+					<path class="st38" d="M555.3,682.6c0,0-132.3-1518.6-143.3,79.8L555.3,682.6z"/>
+					<rect x="418.5" y="266.3" class="st39" width="9.3" height="190.7"/>
+					<g>
+						<g>
+							<defs>
+								<polygon id="SVGID_15_" points="520.6,447.8 427.2,457.1 427.3,266.3 520.6,290.3 							"/>
+							</defs>
+							<clipPath id="SVGID_16_">
+								<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 0 1.525879e-005)" class="st40 poster" data-type="dance">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="376" height="502" xlink:href="abcd-ai.png"  transform="matrix(0.4006 0 0 0.4006 425.0903 261.0956)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					
+						<linearGradient id="SVGID_17_" gradientUnits="userSpaceOnUse" x1="627.9165" y1="123.972" x2="627.9165" y2="664.2664" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+						<stop  offset="1" style="stop-color:#FFFFFD"/>
+					</linearGradient>
+					<path class="st41" d="M680.8,613.1c0,0-97.7-1121.3-105.8,58.9L680.8,613.1z"/>
+					<rect x="581.2" y="301.6" class="st39" width="6.8" height="139.5"/>
+					<g>
+						<g>
+							<defs>
+								<polygon id="SVGID_18_" points="655.9,434.4 587.6,441.2 587.7,301.6 655.9,319.2 							"/>
+							</defs>
+							<clipPath id="SVGID_19_">
+								<use xlink:href="#SVGID_18_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 -1.525879e-005 0)" class="st42 poster" data-type="dramatics">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="200" height="369" xlink:href="tamasha-ai.png"  transform="matrix(0.3889 0 0 0.3889 582.8731 299.599)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					
+						<linearGradient id="SVGID_20_" gradientUnits="userSpaceOnUse" x1="736.967" y1="191.191" x2="736.967" y2="599.2666" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+						<stop  offset="1" style="stop-color:#FFFFFD"/>
+					</linearGradient>
+					<path class="st43" d="M776.9,560.3c0,0-73.8-846.9-79.9,44.5L776.9,560.3z"/>
+					<rect x="706.3" y="329.7" class="st39" width="4.8" height="100.6"/>
+					<g>
+						<g>
+							<defs>
+								<polygon id="SVGID_21_" points="757.7,424.9 709.7,429.7 709.8,329.1 757.7,341.8 							"/>
+							</defs>
+							<clipPath id="SVGID_22_">
+								<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 0 0)" class="st44 poster" data-type="music">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="217" height="364" xlink:href="rockon-ai.png"  transform="matrix(0.3209 0 0 0.3209 694.9693 321.5765)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					
+						<linearGradient id="SVGID_23_" gradientUnits="userSpaceOnUse" x1="823.32" y1="246.109" x2="823.32" y2="535.2667" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+						<stop  offset="1" style="stop-color:#FFFFFD"/>
+					</linearGradient>
+					<path class="st45" d="M851.6,518.3c0,0-52.3-600.1-56.6,31.5L851.6,518.3z"/>
+					<rect x="801.8" y="351.6" class="st39" width="3.4" height="68.8"/>
+					<g>
+						<g>
+							<defs>
+								<polygon id="SVGID_24_" points="839.7,417.1 805,420.4 805.1,351.6 839.7,360.3 							"/>
+							</defs>
+							<clipPath id="SVGID_25_">
+								<use xlink:href="#SVGID_24_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 3.051758e-005 0)" class="st46 poster" data-type="humorfest">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="290" height="487" xlink:href="golmaal-ai-compressor.png"  transform="matrix(0.1756 0 0 0.1756 795.8416 344.7922)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					
+						<linearGradient id="SVGID_26_" gradientUnits="userSpaceOnUse" x1="889.757" y1="286.333" x2="889.757" y2="498.2661" gradientTransform="matrix(1 0 0 -1 0 796)">
+						<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+						<stop  offset="1" style="stop-color:#FFFFFD"/>
+					</linearGradient>
+					<path class="st47" d="M910.5,486.5c0,0-38.3-439.8-41.5,23.1L910.5,486.5z"/>
+					<rect x="874.2" y="366.4" width="2.5" height="49.5"/>
+					<g>
+						<g>
+							<defs>
+								<polygon id="SVGID_27_" points="901.4,413.6 876.6,416 876.6,366.4 901.4,372.6 							"/>
+							</defs>
+							<clipPath id="SVGID_28_">
+								<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+							</clipPath>
+							<g transform="matrix(1 0 0 1 3.051758e-005 0)" class="st48 poster" data-type="filmfest">
+								
+									<image style="overflow:visible;enable-background:new    ;" width="300" height="512" xlink:href="wakeupsid-ai-compressor.png"  transform="matrix(0.1081 0 0 0.1081 870.3326 365.5959)">
+								</image>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					<path class="st49" d="M482,30.2c0,7-8.9,11.8-27.3,11.8s-27.3-4.5-27.3-11.5c0-2.8,0.1-5.6,1.6-7.5c3.7-4.7,12.6-6.2,25.7-6.2
+						c9.6,0,19.3,2.1,23.8,4.5C482.4,23.5,482,25.9,482,30.2z"/>
+					<ellipse class="st50" cx="454.7" cy="31.7" rx="27.3" ry="10.3"/>
+					<ellipse class="st51" cx="454.8" cy="32.1" rx="21.5" ry="7.9"/>
+					<path class="st52" d="M450.8,39.9c0,0-29.4-6.2,0.4-15.6c0,0-17.1,1.3-17.9,7.4C432.6,37.8,450.8,39.9,450.8,39.9z"/>
+				</g>
+				<g>
+					<path class="st49" d="M628.3,127c0,4.7-6,8-18.5,8c-12.5,0-18.5-3.1-18.5-7.8c0-1.9,0.1-3.8,1.1-5.1c2.5-3.2,8.5-4.2,17.4-4.2
+						c6.5,0,13.1,1.4,16.1,3.1C628.6,122.5,628.3,124.1,628.3,127z"/>
+					<ellipse class="st50" cx="609.8" cy="128" rx="18.5" ry="7"/>
+					<ellipse class="st51" cx="609.9" cy="128.3" rx="14.5" ry="5.4"/>
+					<path class="st52" d="M607.2,133.6c0,0-19.9-4.2,0.3-10.6c0,0-11.6,0.9-12.1,5C594.9,132.1,607.2,133.6,607.2,133.6z"/>
+				</g>
+				<g>
+					<path class="st49" d="M742.1,198.4c0,3.9-5,6.6-15.4,6.6c-10.4,0-15.4-2.6-15.4-6.5c0-1.5,0.1-3.2,0.9-4.2
+						c2.1-2.6,7.1-3.5,14.5-3.5c5.4,0,10.9,1.2,13.4,2.6C742.4,194.6,742.1,196,742.1,198.4z"/>
+					<ellipse class="st50" cx="726.7" cy="199.2" rx="15.4" ry="5.8"/>
+					<ellipse class="st51" cx="726.8" cy="199.4" rx="12.1" ry="4.5"/>
+					<path class="st52" d="M724.5,203.8c0,0-16.6-3.5,0.3-8.8c0,0-9.6,0.8-10.1,4.2C714.3,202.6,724.5,203.8,724.5,203.8z"/>
+				</g>
+				<g>
+					<path class="st49" d="M827.1,256c0,3-3.8,5-11.6,5s-11.6-1.9-11.6-4.9c0-1.2,0.1-2.4,0.7-3.2c1.6-2,5.4-2.6,10.9-2.6
+						c4.1,0,8.2,0.9,10.1,1.9C827.3,253.1,827.1,254.2,827.1,256z"/>
+					<ellipse class="st50" cx="815.5" cy="256.6" rx="11.6" ry="4.4"/>
+					<ellipse class="st51" cx="815.5" cy="256.8" rx="9.1" ry="3.4"/>
+					<path class="st52" d="M813.8,260.1c0,0-12.5-2.6,0.2-6.6c0,0-7.3,0.6-7.6,3.2C806.1,259.2,813.8,260.1,813.8,260.1z"/>
+				</g>
+				<g>
+					<path class="st49" d="M891.7,297.4c0,2.1-2.7,3.5-8.1,3.5s-8.1-1.3-8.1-3.4c0-0.8,0-1.7,0.5-2.2c1.1-1.4,3.7-1.8,7.6-1.8
+						c2.9,0,5.7,0.6,7.1,1.3C891.8,295.4,891.7,296.1,891.7,297.4z"/>
+					<ellipse class="st50" cx="883.5" cy="297.8" rx="8.1" ry="3.1"/>
+					<ellipse class="st51" cx="883.6" cy="297.9" rx="6.4" ry="2.4"/>
+					<path class="st52" d="M882.4,300.2c0,0-8.7-1.8,0.1-4.6c0,0-5.1,0.4-5.3,2.2C877,299.6,882.4,300.2,882.4,300.2z"/>
+				</g>
+			</g>
+			<g id="Dance">
+				<polygon class="st53" points="447.3,226.8 508.5,246.3 508.3,266.3 446.9,250.4 			"/>
+				<polygon class="st54" points="441.5,226.6 447.4,226.8 447,250.4 441,251.1 			"/>
+				<polygon class="st54" points="503.4,267.7 509.9,266.4 447.2,250.4 441,251.1 			"/>
+				<g>
+					<path class="st55" d="M452.2,233.2c1.2,0.2,2.5,0.5,4,1c2.6,0.9,4.5,2.1,5.7,3.6c1.2,1.5,2,3.4,2,5.7c0,2.3-0.6,4-1.9,5
+						c-1.3,1-3.5,1.1-6.3,0.4c-1.4-0.4-2.5-0.7-3.5-1.1L452.2,233.2z M454.1,246.8c0.5,0.2,1.2,0.4,1.9,0.6c4,1.1,6.1-0.6,6-4.4
+						c0-3.3-1.9-6-5.7-7.3c-1-0.3-1.7-0.4-2.2-0.5L454.1,246.8z"/>
+					<path class="st55" d="M468,247.6l-1.3,4.1l-1.8-0.5l4.3-12.6l2,0.6l4.6,14.9l-1.7-0.5l-1.5-4.7L468,247.6z M472.2,247.5
+						l-1.3-4.3c-0.3-1-0.5-1.8-0.7-2.7l-0.1,0c-0.2,0.8-0.3,1.5-0.6,2.3l-1.2,3.6L472.2,247.5z"/>
+					<path class="st55" d="M477.6,254.6l-0.4-13.4l1.7,0.6l4,7.8c0.9,1.8,1.6,3.4,2.2,4.9l0,0c-0.2-1.8-0.3-3.4-0.4-5.4l-0.2-5.4
+						l1.4,0.4l0.6,12.9l-1.5-0.4l-3.9-7.8c-0.9-1.7-1.7-3.5-2.4-5.1l-0.1,0c0.1,1.7,0.2,3.3,0.3,5.5l0.2,5.8L477.6,254.6z"/>
+					<path class="st55" d="M496.3,259.3c-0.5,0.2-1.4,0.2-2.7-0.1c-3-0.8-5.4-3.8-5.6-8c-0.2-4,2-5.9,5.2-4.8c1.3,0.4,2.1,1,2.5,1.3
+						l-0.2,1.2c-0.5-0.5-1.2-0.9-2.1-1.2c-2.5-0.8-4,0.6-3.9,3.9c0.1,3.1,1.8,5.6,4.4,6.3c0.8,0.2,1.6,0.2,2.2,0.1L496.3,259.3z"/>
+					<path class="st55" d="M502.7,255.8l-3.8-1.1l0.3,4.5l4.2,1.2l0.1,1.3l-5.5-1.5l-0.7-12.3l5.3,1.7l0.1,1.3l-4-1.3l0.2,3.9
+						l3.8,1.1L502.7,255.8z"/>
+				</g>
+			</g>
+			<g id="Dramatics">
+				<polygon class="st53" points="589,269.1 660,291.4 660,305.9 589,287.5 			"/>
+				<polygon class="st54" points="585,269 589,269 589,287 585,287.5 			"/>
+				<polygon class="st54" points="656,306.7 660.7,305.9 589.5,287 585,287.5 			"/>
+				<g>
+					<path class="st55" d="M591.6,273c0.8,0.1,1.8,0.4,2.9,0.7c1.9,0.6,3.3,1.4,4.2,2.4c0.9,1,1.5,2.3,1.5,3.8c0,1.5-0.5,2.6-1.5,3.2
+						c-1,0.6-2.6,0.6-4.6,0c-1-0.3-1.8-0.6-2.5-0.8L591.6,273L591.6,273z M593,281.8c0.3,0.2,0.9,0.3,1.4,0.5
+						c2.9,0.8,4.5-0.2,4.4-2.7c0-2.2-1.4-4-4.2-4.9c-0.7-0.2-1.2-0.3-1.6-0.4L593,281.8z"/>
+					<path class="st55" d="M601.9,276.1c0.7,0.1,1.6,0.3,2.5,0.6c1.4,0.4,2.3,0.9,2.9,1.6c0.5,0.6,0.8,1.3,0.8,2
+						c0,1.2-0.8,1.8-1.8,1.8l0,0c0.8,0.5,1.3,1.3,1.5,2.3c0.4,1.4,0.6,2.4,0.8,2.8l-1.3-0.4c-0.2-0.3-0.4-1.2-0.7-2.4
+						c-0.3-1.4-0.9-2-2.1-2.4l-1.2-0.4l0.1,4.1l-1.3-0.4L601.9,276.1z M603.3,280.7l1.3,0.4c1.4,0.4,2.3,0,2.2-1.1c0-1.2-1-2-2.3-2.4
+						c-0.6-0.2-1.1-0.3-1.3-0.3L603.3,280.7z"/>
+					<path class="st55" d="M611.7,285.1l-0.9,2.6l-1.3-0.4l3.1-8.2l1.5,0.5l3.6,10.1l-1.3-0.4l-1.1-3.2L611.7,285.1z M614.9,285.1
+						l-1-2.9c-0.2-0.7-0.4-1.2-0.5-1.8l0,0c-0.1,0.5-0.3,1-0.4,1.5l-0.9,2.4L614.9,285.1z"/>
+					<path class="st55" d="M626.8,288.4c-0.1-1.3-0.3-2.8-0.3-3.9l0,0c-0.3,0.9-0.6,2-1,3.1l-1.4,3.9l-1-0.3l-1.7-4.8
+						c-0.5-1.4-0.9-2.7-1.2-3.8l0,0c0,1.1,0,2.6,0,3.9l-0.1,3.8l-1.2-0.3l0.4-8.9l1.6,0.5l1.8,4.8c0.4,1.2,0.8,2.4,1.1,3.4l0,0
+						c0.2-0.8,0.5-1.8,0.9-2.8l1.5-3.8l1.5,0.5l1,9.1l-1.2-0.3L626.8,288.4z"/>
+					<path class="st55" d="M631.4,290.8l-0.8,2.6l-1.2-0.4l2.7-8l1.4,0.4l3.5,9.7l-1.2-0.3l-1.1-3.1L631.4,290.8z M634.3,290.8
+						l-1-2.8c-0.2-0.6-0.4-1.2-0.5-1.7l0,0c-0.1,0.5-0.2,1-0.4,1.5l-0.8,2.3L634.3,290.8z"/>
+					<path class="st55" d="M638.5,287.9l-2.7-0.8l-0.1-1l6.4,1.9l0.1,0.9l-2.6-0.8l0.5,7.8l-1.1-0.3L638.5,287.9z"/>
+					<path class="st55" d="M644.2,288.7l0.6,8.7l-1.1-0.3l-0.5-8.7L644.2,288.7z"/>
+					<path class="st55" d="M652.6,299.3c-0.4,0.1-1.2,0.1-2.2-0.2c-2.4-0.7-4.3-2.7-4.4-5.6c-0.2-2.7,1.5-4,4.1-3.2
+						c1,0.3,1.7,0.7,2,1l-0.2,0.8c-0.4-0.3-1-0.6-1.7-0.9c-2-0.6-3.2,0.3-3,2.6c0.1,2.1,1.4,3.8,3.5,4.4c0.7,0.2,1.3,0.2,1.7,0.1
+						L652.6,299.3z"/>
+					<path class="st55" d="M653.7,298.6c0.5,0.4,1.2,0.9,1.9,1.1c1.1,0.3,1.7-0.1,1.6-1c-0.1-0.8-0.5-1.4-1.7-2.1
+						c-1.4-0.9-2.2-1.9-2.3-3c-0.1-1.3,0.9-2,2.5-1.5c0.8,0.2,1.4,0.6,1.8,0.9l-0.2,0.8c-0.3-0.2-0.8-0.6-1.6-0.9
+						c-1.1-0.3-1.5,0.2-1.4,0.8c0.1,0.8,0.6,1.3,1.7,2.1c1.4,1,2.2,1.8,2.3,3.1c0.1,1.3-0.7,2.2-2.6,1.7c-0.8-0.2-1.7-0.7-2.1-1.2
+						L653.7,298.6z"/>
+				</g>
+			</g>
+			<g id="music">
+				<polygon class="st53" points="709.3,306 758.3,321.9 758.3,332.2 709.3,319.1 			"/>
+				<polygon class="st54" points="706.3,306 709.3,306 709.3,318.7 706.3,319.1 			"/>
+				<polygon class="st54" points="756,332.7 759.3,332.2 709.5,318.7 706.3,319.1 			"/>
+				<g>
+					<path class="st55" d="M725.9,317.8c-0.1-1-0.3-2.3-0.3-3.2l0,0c-0.3,0.7-0.6,1.6-1,2.4l-1.5,3.2l-1-0.3l-1.6-4.1
+						c-0.5-1.2-0.9-2.3-1.2-3.2l0,0c0,0.9-0.1,2.1-0.1,3.2l-0.2,3.3l-1.3-0.3l0.6-7.4l1.6,0.5l1.7,4.1c0.4,1,0.8,2,1,2.9l0,0
+						c0.2-0.7,0.5-1.5,0.9-2.3l1.5-3l1.5,0.5l1,7.5l-1.2-0.3L725.9,317.8z"/>
+					<path class="st55" d="M729.8,315.1l0.3,4.2c0.1,1.6,1,2.6,2.2,2.9c1.2,0.3,2-0.1,1.8-1.7l-0.4-4.1l1,0.3l0.4,4
+						c0.2,2.2-1,2.7-2.8,2.2c-1.8-0.5-3.2-1.7-3.4-4l-0.3-4.2L729.8,315.1z"/>
+					<path class="st55" d="M737.1,323.1c0.5,0.4,1.2,0.8,1.9,1c1,0.3,1.5,0,1.5-0.7c-0.1-0.6-0.5-1.1-1.6-1.8
+						c-1.3-0.8-2.2-1.6-2.3-2.6c-0.1-1,0.8-1.5,2.3-1c0.8,0.2,1.3,0.6,1.7,0.8l-0.2,0.6c-0.3-0.2-0.8-0.5-1.5-0.8
+						c-1-0.3-1.4,0.1-1.3,0.6c0.1,0.6,0.6,1.1,1.7,1.8c1.3,0.8,2,1.6,2.2,2.6c0.1,1.1-0.6,1.8-2.4,1.3c-0.8-0.2-1.6-0.7-2.1-1
+						L737.1,323.1z"/>
+					<path class="st55" d="M742.9,319.3l1,6.7l-1-0.3L742,319L742.9,319.3z"/>
+					<path class="st55" d="M750.3,327.6c-0.3,0.1-0.9,0.1-1.7-0.2c-1.9-0.5-3.6-2.2-4-4.4c-0.3-2.1,0.9-3,3-2.3
+						c0.8,0.3,1.4,0.6,1.6,0.8l-0.1,0.6c-0.3-0.3-0.8-0.5-1.4-0.7c-1.6-0.5-2.5,0.1-2.2,1.9c0.3,1.6,1.4,3,3.1,3.4
+						c0.5,0.1,1,0.2,1.4,0.1L750.3,327.6z"/>
+				</g>
+			</g>
+			<g id="HUmour_fest">
+				<polygon class="st54" points="852.1,354.8 854.2,354.6 802.6,340.4 800.4,340.8 			"/>
+				<polygon class="st53" points="853.7,345.8 854.3,354.6 802.4,340.5 802.7,331 			"/>
+				<polygon class="st54" points="800.5,331 802.7,331 802.5,340.6 800.5,340.8 			"/>
+				<g>
+					<path class="st55" d="M805.1,333.9l0,2.4l3,0.8l0-2.4l0.8,0.2l-0.1,5.7l-0.8-0.2l0-2.7l-3-0.8l-0.1,2.7l-0.8-0.2l0.1-5.7
+						L805.1,333.9z"/>
+					<path class="st55" d="M811,335.6l0,3.4c0,1.3,0.6,2,1.4,2.2c0.9,0.3,1.5-0.1,1.5-1.4l0-3.4l0.8,0.2l0,3.3c0,1.8-1,2.2-2.3,1.8
+						c-1.3-0.4-2.2-1.3-2.2-3.1l0-3.4L811,335.6z"/>
+					<path class="st55" d="M821.2,341.6c-0.1-0.8-0.1-1.8-0.1-2.5l0,0c-0.2,0.6-0.5,1.3-0.8,2l-1,2.5l-0.6-0.2l-1-3
+						c-0.3-0.9-0.5-1.7-0.7-2.4l0,0c0,0.7,0,1.6-0.1,2.5l-0.2,2.4l-0.8-0.2l0.4-5.6l1,0.3l1.1,3.1c0.3,0.8,0.5,1.5,0.6,2.1l0,0
+						c0.2-0.5,0.4-1.2,0.6-1.8l1.1-2.4l1,0.3l0.5,5.8l-0.8-0.2L821.2,341.6z"/>
+					<path class="st55" d="M828.6,343.4c0.1,1.9-1.2,2.6-2.8,2.2c-1.7-0.5-2.8-2-2.8-3.7c0-1.8,1.1-2.7,2.8-2.2
+						C827.5,340.1,828.5,341.7,828.6,343.4z M823.9,342c0,1.3,0.8,2.6,2,2.9c1.3,0.4,1.9-0.6,1.9-1.8c0-1.2-0.7-2.5-2-2.9
+						C824.5,339.9,823.8,340.8,823.9,342z"/>
+					<path class="st55" d="M829.5,340.9c0.4,0,1,0.2,1.5,0.3c0.8,0.2,1.4,0.5,1.8,1c0.3,0.3,0.5,0.8,0.5,1.2c0,0.8-0.5,1.1-1.1,1.1
+						l0,0c0.5,0.3,0.8,0.8,0.9,1.4c0.2,0.9,0.4,1.5,0.5,1.7l-0.8-0.2c-0.1-0.2-0.3-0.7-0.5-1.5c-0.2-0.8-0.5-1.2-1.3-1.5l-0.7-0.2
+						l0.1,2.5l-0.8-0.2L829.5,340.9z M830.4,343.7l0.8,0.2c0.8,0.2,1.4,0,1.3-0.7c0-0.7-0.6-1.2-1.4-1.5c-0.4-0.1-0.6-0.1-0.8-0.2
+						L830.4,343.7z"/>
+					<path class="st55" d="M836.3,342.7l3.3,0.9l0,0.6l-2.5-0.7l0.1,1.9l2.3,0.6l0,0.6l-2.3-0.6l0.1,2.6l-0.8-0.2L836.3,342.7z"/>
+					<path class="st55" d="M844,347.9l-2.4-0.7l0.1,2.1l2.6,0.7l0,0.6l-3.4-1l-0.3-5.8l3.3,0.9l0,0.6l-2.5-0.7l0.1,1.8l2.4,0.7
+						L844,347.9z"/>
+					<path class="st55" d="M845.2,350c0.4,0.3,0.9,0.6,1.4,0.8c0.8,0.2,1.2,0,1.2-0.6c0-0.5-0.4-0.9-1.2-1.5c-1-0.6-1.6-1.3-1.7-2.1
+						c-0.1-0.9,0.7-1.3,1.9-1c0.6,0.2,1.1,0.4,1.4,0.6l-0.2,0.5c-0.2-0.2-0.6-0.4-1.2-0.6c-0.8-0.2-1.1,0.1-1.1,0.5
+						c0,0.5,0.4,0.9,1.3,1.5c1.1,0.7,1.6,1.3,1.7,2.1c0.1,0.9-0.6,1.5-2,1.1c-0.6-0.2-1.3-0.5-1.6-0.8L845.2,350z"/>
+					<path class="st55" d="M850.7,347.4l-1.8-0.5l0-0.6l4.5,1.3l0,0.6l-1.8-0.5l0.4,5.2l-0.8-0.2L850.7,347.4z"/>
+				</g>
+			</g>
+			<g>
+				<polygon class="st53" points="879.9,351.1 906,359 906.1,364.2 880,357.8 			"/>
+				<polygon class="st54" points="879.9,351.1 878.3,351.2 878.4,358 880,357.6 			"/>
+				<polygon class="st54" points="904.6,364.9 906,364.1 880.2,357.2 878.3,358.1 			"/>
+				<g>
+					<path class="st55" d="M880.5,352.4l2.5,0.7l0,0.4l-1.9-0.6l0,1.4l1.7,0.5l0,0.4l-1.7-0.5l0,1.9l-0.6-0.2L880.5,352.4z"/>
+					<path class="st55" d="M884.4,353.6l0,4l-0.6-0.2l0-4.1L884.4,353.6z"/>
+					<path class="st55" d="M885.4,353.9l0.6,0.2l0,3.6l1.9,0.5l0,0.4l-2.5-0.7L885.4,353.9z"/>
+					<path class="st55" d="M892.1,358.1c0-0.6-0.1-1.2-0.1-1.7l0,0c-0.1,0.4-0.3,0.9-0.5,1.3l-0.7,1.7l-0.4-0.1l-0.7-2.1
+						c-0.2-0.6-0.4-1.2-0.5-1.7l0,0c0,0.5,0,1.1-0.1,1.7l-0.1,1.7l-0.5-0.2l0.2-3.9l0.7,0.2l0.8,2.1c0.2,0.5,0.3,1,0.4,1.5l0,0
+						c0.1-0.4,0.2-0.8,0.4-1.2l0.7-1.7l0.7,0.2l0.4,4l-0.5-0.2L892.1,358.1z"/>
+					<path class="st55" d="M894.8,356.7l2.2,0.7l0,0.4l-1.6-0.5l0,1.3l1.5,0.4l0,0.4l-1.5-0.4l0.1,1.8l-0.5-0.2L894.8,356.7z"/>
+					<path class="st55" d="M899.8,360.2l-1.5-0.4l0,1.4l1.7,0.5l0,0.4l-2.2-0.6l-0.1-3.8l2.1,0.6l0,0.4l-1.6-0.5l0,1.2l1.5,0.4
+						L899.8,360.2z"/>
+					<path class="st55" d="M900.6,361.6c0.2,0.2,0.6,0.4,0.9,0.5c0.5,0.1,0.8,0,0.8-0.4c0-0.4-0.2-0.6-0.8-1c-0.6-0.4-1-0.8-1.1-1.4
+						c0-0.6,0.5-0.9,1.2-0.6c0.4,0.1,0.7,0.3,0.8,0.4l-0.1,0.4c-0.1-0.1-0.4-0.3-0.7-0.4c-0.5-0.2-0.7,0.1-0.7,0.3
+						c0,0.4,0.3,0.6,0.8,1c0.7,0.4,1,0.8,1,1.4c0,0.6-0.4,1-1.3,0.7c-0.4-0.1-0.8-0.3-1-0.5L900.6,361.6z"/>
+					<path class="st55" d="M904.1,359.9l-1.1-0.3l0-0.4l2.8,0.8l0,0.4l-1.1-0.3l0.2,3.3l-0.5-0.1L904.1,359.9z"/>
+				</g>
+			</g>
+		</g>
+		<g id="Right_wall">
+			<g>
+				<polygon points="1743,781 1178,463.8 1178,331 1743.2,13 			"/>
+				<g>
+					<g id="XMLID_1_">
+						<rect id="XMLID_72_" x="1462" y="54" class="st18" width="12" height="553"/>
+						<rect id="XMLID_71_" x="1575" y="66" class="st18" width="13" height="605"/>
+						<rect id="XMLID_69_" x="1561" y="64" class="st18" width="12" height="595"/>
+						<rect id="XMLID_68_" x="1546" y="60" class="st18" width="13" height="599"/>
+						<rect id="XMLID_67_" x="1476" y="57" class="st18" width="13" height="556"/>
+						<rect id="XMLID_66_" x="1491" y="60" class="st18" width="12" height="579"/>
+						<rect id="XMLID_65_" x="1589" y="68" class="st18" width="14" height="619"/>
+						<rect id="XMLID_64_" x="1604" y="71" class="st18" width="12" height="624"/>
+						<rect id="XMLID_63_" x="1617" y="19" class="st18" width="13" height="678"/>
+						<rect id="XMLID_62_" x="1632" y="20" class="st18" width="12" height="693"/>
+						<rect id="XMLID_61_" x="1533" y="60" class="st18" width="11" height="599"/>
+						<rect id="XMLID_60_" x="1518" y="60" class="st18" width="13" height="597"/>
+						<rect id="XMLID_59_" x="1504" y="60" class="st18" width="13" height="579"/>
+						<rect id="XMLID_58_" x="1646" y="19" class="st18" width="12" height="694"/>
+						<rect id="XMLID_57_" x="1660" y="20" class="st18" width="13" height="709"/>
+						<rect id="XMLID_56_" x="1674" y="23" class="st18" width="12" height="718"/>
+						<rect id="XMLID_55_" x="1688" y="21" class="st18" width="13" height="720"/>
+						<rect id="XMLID_54_" x="1717" y="20" class="st18" width="13" height="722"/>
+						<rect id="XMLID_53_" x="1702" y="20" class="st18" width="14" height="722"/>
+						<rect id="XMLID_52_" x="1731" y="13" class="st18" width="12" height="728"/>
+						<rect id="XMLID_50_" x="1179" y="328" class="st18" width="12" height="142"/>
+						<rect id="XMLID_47_" x="1292" y="208" class="st18" width="13" height="316"/>
+						<rect id="XMLID_46_" x="1277" y="217" class="st18" width="12" height="292"/>
+						<rect id="XMLID_45_" x="1263" y="224" class="st18" width="13" height="282"/>
+						<rect id="XMLID_44_" x="1193" y="313" class="st18" width="13" height="163"/>
+						<rect id="XMLID_43_" x="1208" y="281" class="st18" width="11" height="195"/>
+						<rect id="XMLID_42_" x="1306" y="199" class="st18" width="12" height="336"/>
+						<rect id="XMLID_41_" x="1321" y="188" class="st18" width="12" height="351"/>
+						<rect id="XMLID_40_" x="1334" y="170" class="st18" width="14" height="378"/>
+						<rect id="XMLID_39_" x="1349" y="151" class="st18" width="12" height="406"/>
+						<rect id="XMLID_38_" x="1250" y="238" class="st18" width="11" height="266"/>
+						<rect id="XMLID_37_" x="1235" y="256" class="st18" width="13" height="232"/>
+						<rect id="XMLID_36_" x="1221" y="269" class="st18" width="13" height="207"/>
+						<rect id="XMLID_35_" x="1363" y="144" class="st18" width="12" height="423"/>
+						<rect id="XMLID_34_" x="1377" y="131" class="st18" width="13" height="446"/>
+						<rect id="XMLID_33_" x="1391" y="115" class="st18" width="13" height="456"/>
+						<rect id="XMLID_32_" x="1405" y="119" class="st18" width="13" height="473"/>
+						<rect id="XMLID_30_" x="1433" y="72" class="st18" width="13" height="520"/>
+						<rect id="XMLID_26_" x="1419" y="104" class="st18" width="13" height="488"/>
+						<rect id="XMLID_24_" x="1447" y="72" class="st18" width="13" height="520"/>
+					</g>
+					<polygon class="st18" points="1447.7,13 1152.8,331 1152.6,338.4 1536.1,12 				"/>
+					<polygon class="st19" points="1152.6,338.4 1536.1,12 1743.5,12.7 1177.9,338 				"/>
+					<polygon class="st19" points="1742,682.3 1177.4,450.3 1176.9,469.2 1742,781 				"/>
+					<g>
+						
+							<linearGradient id="SVGID_29_" gradientUnits="userSpaceOnUse" x1="1583.3577" y1="33.53" x2="1583.3578" y2="769.4987" gradientTransform="matrix(-1 0 0 -1 3225.5137 796)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st56" d="M1570.1,682.2c0,0,133-1527.4,144.2,80.3L1570.1,682.2z"/>
+						<rect x="1692.1" y="254.6" class="st53" width="9.6" height="196.9"/>
+						<g>
+							<g>
+								<defs>
+									<polygon id="SVGID_30_" points="1596.2,442.1 1692.7,451.6 1692.5,254.6 1596.2,279.4 								"/>
+								</defs>
+								<clipPath id="SVGID_31_">
+									<use xlink:href="#SVGID_30_"  style="overflow:visible;"/>
+								</clipPath>
+								<g transform="matrix(1 0 0 1 0 1.525879e-005)" class="st57 poster" data-type="literary">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="315" height="464" xlink:href="udaan.png"  transform="matrix(0.4342 0 0 0.4342 1578.0356 251.9956)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g>
+						
+							<linearGradient id="SVGID_32_" gradientUnits="userSpaceOnUse" x1="1731.6337" y1="118" x2="1731.6338" y2="667.3652" gradientTransform="matrix(-1 0 0 -1 3225.5137 796)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st58" d="M1440.1,618.1c0,0,99.3-1140.1,107.6,59.9L1440.1,618.1z"/>
+						<rect x="1528.9" y="295.3" class="st53" width="6.8" height="139.5"/>
+						<g>
+							<g>
+								<defs>
+									<polygon id="SVGID_33_" points="1460.9,428.1 1529.3,434.9 1529.2,295.3 1460.9,312.9 								"/>
+								</defs>
+								<clipPath id="SVGID_34_">
+									<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st59 poster" data-type="quiz">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="359" height="569" xlink:href="slumdog-ai.png"  transform="matrix(0.2764 0 0 0.2764 1447.4519 286.3832)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g>
+						
+							<linearGradient id="SVGID_35_" gradientUnits="userSpaceOnUse" x1="1848.3932" y1="194" x2="1848.3932" y2="593.4329" gradientTransform="matrix(-1 0 0 -1 3225.5137 796)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st60" d="M1338,558.4c0,0,72.2-829,78.2,43.6L1338,558.4z"/>
+						<rect x="1405" y="326.3" class="st53" width="4.8" height="98.6"/>
+						<g>
+							<g>
+								<defs>
+									<polygon id="SVGID_36_" points="1357.2,420.1 1405.3,424.9 1405.2,326.3 1357.2,338.7 								"/>
+								</defs>
+								<clipPath id="SVGID_37_">
+									<use xlink:href="#SVGID_36_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st61 poster" data-type="finearts">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="369" height="543" xlink:href="taarezameenpar-ai.png"  transform="matrix(0.2374 0 0 0.2374 1339.5331 311.9763)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g>
+						
+							<linearGradient id="SVGID_38_" gradientUnits="userSpaceOnUse" x1="1933.1826" y1="246" x2="1933.1827" y2="535.2671" gradientTransform="matrix(-1 0 0 -1 3225.5137 796)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st62" d="M1264,518.4c0,0,52.3-600.3,56.7,31.6L1264,518.4z"/>
+						<rect x="1311.5" y="347.9" class="st53" width="3.4" height="67"/>
+						<g>
+							<g>
+								<defs>
+									<polygon id="SVGID_39_" points="1277,411.6 1311.7,414.9 1311.6,347.9 1277,356.3 								"/>
+								</defs>
+								<clipPath id="SVGID_40_">
+									<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
+								</clipPath>
+								<g transform="matrix(1 0 0 1 -6.103516e-005 0)" class="st63 poster">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="344" height="508" xlink:href="swadesh-ai.png"  transform="matrix(0.1688 0 0 0.1688 1266.7615 339.9124)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g>
+						
+							<linearGradient id="SVGID_41_" gradientUnits="userSpaceOnUse" x1="1998.7567" y1="284.333" x2="1998.7567" y2="496.2661" gradientTransform="matrix(-1 0 0 -1 3225.5137 796)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st64" d="M1206,488.5c0,0,38.3-439.8,41.5,23.1L1206,488.5z"/>
+						<rect x="1240" y="362.4" class="st53" width="2.5" height="48.3"/>
+						<g>
+							<g>
+								<defs>
+									<polygon id="SVGID_42_" points="1215.3,408.3 1240.1,410.7 1240.1,362.4 1215.3,368.5 								"/>
+								</defs>
+								<clipPath id="SVGID_43_">
+									<use xlink:href="#SVGID_42_"  style="overflow:visible;"/>
+								</clipPath>
+								<g class="st65 poster" data-type="informals">
+									
+										<image style="overflow:visible;enable-background:new    ;" width="521" height="767" xlink:href="chillar-party-ai-compressor.png"  transform="matrix(0.1023 0 0 0.1023 1204.3673 348.7467)">
+									</image>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g>
+						<path class="st49" d="M1639.1,30.2c0,7,8.9,11.8,27.3,11.8c18.4,0,27.3-4.5,27.3-11.5c0-2.8-0.1-5.6-1.6-7.5
+							c-3.7-4.7-12.6-6.2-25.7-6.2c-9.6,0-19.3,2.1-23.8,4.5C1638.7,23.5,1639.1,25.9,1639.1,30.2z"/>
+						<ellipse class="st50" cx="1666.5" cy="31.7" rx="27.3" ry="10.3"/>
+						<ellipse class="st51" cx="1666.3" cy="32.1" rx="21.5" ry="7.9"/>
+						<path class="st52" d="M1670.3,39.9c0,0,29.4-6.2-0.4-15.6c0,0,17.1,1.3,17.9,7.4S1670.3,39.9,1670.3,39.9z"/>
+					</g>
+					<g>
+						<path class="st49" d="M1494.8,120c0,4.7,6,8,18.5,8s18.5-3.1,18.5-7.8c0-1.9-0.1-3.8-1.1-5.1c-2.5-3.2-8.5-4.2-17.4-4.2
+							c-6.5,0-13.1,1.4-16.1,3.1C1494.5,115.5,1494.8,117.1,1494.8,120z"/>
+						<ellipse class="st50" cx="1513.3" cy="121" rx="18.5" ry="7"/>
+						<ellipse class="st51" cx="1513.2" cy="121.3" rx="14.5" ry="5.4"/>
+						<path class="st52" d="M1515.9,126.6c0,0,19.9-4.2-0.3-10.6c0,0,11.6,0.9,12.1,5C1528.2,125.1,1515.9,126.6,1515.9,126.6z"/>
+					</g>
+					<g>
+						<path class="st49" d="M1376,196.4c0,3.9,5,6.6,15.4,6.6s15.4-2.6,15.4-6.5c0-1.5-0.1-3.2-0.9-4.2c-2.1-2.6-7.1-3.5-14.5-3.5
+							c-5.4,0-10.9,1.2-13.4,2.6C1375.8,192.6,1376,194,1376,196.4z"/>
+						<ellipse class="st50" cx="1391.4" cy="197.2" rx="15.4" ry="5.8"/>
+						<ellipse class="st51" cx="1391.3" cy="197.4" rx="12.1" ry="4.5"/>
+						<path class="st52" d="M1393.6,201.8c0,0,16.6-3.5-0.3-8.8c0,0,9.6,0.8,10.1,4.2C1403.8,200.6,1393.6,201.8,1393.6,201.8z"/>
+					</g>
+					<g>
+						<path class="st49" d="M1291,253c0,3,3.8,5,11.6,5c7.8,0,11.6-1.9,11.6-4.9c0-1.2-0.1-2.4-0.7-3.2c-1.6-2-5.4-2.6-10.9-2.6
+							c-4.1,0-8.2,0.9-10.1,1.9C1290.8,250.1,1291,251.2,1291,253z"/>
+						<ellipse class="st50" cx="1302.6" cy="253.6" rx="11.6" ry="4.4"/>
+						<ellipse class="st51" cx="1302.6" cy="253.8" rx="9.1" ry="3.4"/>
+						<path class="st52" d="M1304.3,257.1c0,0,12.5-2.6-0.2-6.6c0,0,7.3,0.6,7.6,3.2C1312,256.2,1304.3,257.1,1304.3,257.1z"/>
+					</g>
+					<g>
+						<path class="st49" d="M1227.5,296.4c0,2.1,2.7,3.5,8.1,3.5c5.5,0,8.1-1.3,8.1-3.4c0-0.8,0-1.7-0.5-2.2
+							c-1.1-1.4-3.7-1.8-7.6-1.8c-2.9,0-5.7,0.6-7.1,1.3C1227.3,294.4,1227.5,295.1,1227.5,296.4z"/>
+						<ellipse class="st50" cx="1235.6" cy="296.8" rx="8.1" ry="3.1"/>
+						<ellipse class="st51" cx="1235.5" cy="296.9" rx="6.4" ry="2.4"/>
+						<path class="st52" d="M1236.7,299.2c0,0,8.7-1.8-0.1-4.6c0,0,5.1,0.4,5.3,2.2C1242.1,298.6,1236.7,299.2,1236.7,299.2z"/>
+					</g>
+				</g>
+				<g>
+					<polygon class="st53" points="1241,352 1215,360.1 1215,365.4 1241,358.7 				"/>
+					<polygon class="st54" points="1241,351.9 1242.3,352 1242.3,358.8 1241,358.6 				"/>
+					<polygon class="st54" points="1216.6,365.8 1214.9,365.5 1240.7,358.6 1242.3,358.8 				"/>
+				</g>
+				<g>
+					<path class="st55" d="M1215.9,360.9l0,3.7l-0.4,0.1V361L1215.9,360.9z"/>
+					<path class="st55" d="M1216.6,364.3l0-3.7l0.5-0.1l1,1.6c0.2,0.4,0.4,0.7,0.6,1l0,0c0-0.5,0-0.9,0-1.5l0-1.6l0.4-0.1l0,3.7
+						l-0.4,0.1l-1-1.6c-0.2-0.3-0.4-0.7-0.6-1.1l0,0c0,0.5,0,0.9,0,1.5l0,1.6L1216.6,364.3z"/>
+					<path class="st55" d="M1219.8,359.7l1.8-0.5l0,0.4l-1.3,0.4l0,1.2l1.2-0.4l0,0.4l-1.2,0.4l0,1.7l-0.4,0.1L1219.8,359.7z"/>
+					<path class="st55" d="M1225,360c0,1.3-0.7,2.2-1.6,2.4c-0.9,0.3-1.5-0.4-1.5-1.5c0-1.2,0.7-2.2,1.6-2.4
+						C1224.5,358.2,1225,358.9,1225,360z M1222.4,360.8c0,0.9,0.4,1.4,1,1.2c0.7-0.2,1.1-1,1.1-1.9c0-0.8-0.3-1.5-1.1-1.2
+						C1222.8,359.1,1222.4,359.9,1222.4,360.8z"/>
+					<path class="st55" d="M1225.6,358c0.2-0.1,0.6-0.2,0.9-0.3c0.5-0.1,0.8-0.1,1,0c0.2,0.1,0.3,0.4,0.3,0.7c0,0.5-0.3,0.9-0.7,1.2
+						v0c0.3,0,0.4,0.3,0.5,0.6c0.1,0.5,0.2,0.9,0.3,1l-0.5,0.1c-0.1-0.1-0.1-0.4-0.2-0.9c-0.1-0.5-0.3-0.6-0.7-0.5l-0.4,0.1l0,1.7
+						l-0.4,0.1L1225.6,358z M1226,359.6l0.5-0.1c0.5-0.1,0.8-0.5,0.8-1c0-0.5-0.3-0.6-0.8-0.5c-0.2,0.1-0.4,0.1-0.4,0.2L1226,359.6z"
+						/>
+					<path class="st55" d="M1231.3,358.4c0-0.5,0-1.2,0-1.7l0,0c-0.1,0.5-0.3,1.1-0.5,1.6l-0.7,2l-0.4,0.1l-0.5-1.7
+						c-0.2-0.5-0.3-1-0.4-1.4l0,0c0,0.5-0.1,1.1-0.1,1.7l-0.1,1.7l-0.4,0.1l0.3-3.9l0.6-0.2l0.6,1.7c0.1,0.4,0.2,0.9,0.3,1.2l0,0
+						c0.1-0.4,0.2-0.9,0.4-1.5l0.7-2.1l0.6-0.2l0.1,3.9l-0.5,0.1L1231.3,358.4z"/>
+					<path class="st55" d="M1233.1,358.4l-0.4,1.3l-0.5,0.1l1.3-4.3l0.6-0.2l1.2,3.6l-0.5,0.1l-0.4-1.1L1233.1,358.4z M1234.3,357.6
+						l-0.3-1c-0.1-0.2-0.1-0.5-0.2-0.7l0,0c-0.1,0.3-0.1,0.5-0.2,0.8l-0.4,1.3L1234.3,357.6z"/>
+					<path class="st55" d="M1235.9,354.8l0.5-0.1l-0.1,3.6l1.6-0.5l0,0.4l-2.1,0.6L1235.9,354.8z"/>
+					<path class="st55" d="M1238.4,357.4c0.2,0.1,0.5,0.1,0.9,0c0.5-0.1,0.8-0.5,0.8-0.9c0-0.4-0.2-0.5-0.7-0.6c-0.6,0-1-0.3-1-0.9
+						c0-0.6,0.5-1.2,1.3-1.5c0.4-0.1,0.7-0.1,0.8-0.1l-0.2,0.5c-0.1,0-0.4-0.1-0.7,0c-0.5,0.2-0.7,0.5-0.7,0.8c0,0.4,0.2,0.5,0.7,0.6
+						c0.6,0.1,1,0.3,0.9,0.9c0,0.6-0.5,1.3-1.4,1.6c-0.4,0.1-0.8,0.1-1,0L1238.4,357.4z"/>
+				</g>
+				<polygon class="st53" points="1277,343.1 1277,351.9 1312.5,343.5 1312.2,333.4 			"/>
+				<polygon class="st54" points="1314.6,333.3 1311.9,333.5 1311.9,343.5 1314.6,343.6 			"/>
+				<polygon class="st54" points="1279.4,352 1277,351.9 1311.9,343.1 1314.6,343.6 			"/>
+				<g>
+					<path class="st55" d="M1281.1,348.6c0.3,0.1,0.8,0.2,1.3,0.1c0.8-0.2,1.2-0.7,1.2-1.4c0-0.6-0.3-0.9-1-1
+						c-0.9-0.1-1.5-0.5-1.4-1.4c0-1,0.8-1.9,1.9-2.1c0.6-0.1,1-0.1,1.2,0l-0.2,0.7c-0.2-0.1-0.5-0.2-1.1,0c-0.8,0.2-1.1,0.8-1.1,1.2
+						c0,0.6,0.3,0.8,1.1,0.9c0.9,0.2,1.4,0.6,1.4,1.5c0,1-0.7,2-2.1,2.4c-0.6,0.1-1.2,0.1-1.5-0.1L1281.1,348.6z"/>
+					<path class="st55" d="M1290.3,344.1c0,2.1-1.2,3.6-2.7,4c-1.6,0.4-2.6-0.7-2.5-2.6c0-1.9,1.1-3.5,2.7-3.9
+						C1289.4,341.2,1290.3,342.3,1290.3,344.1z M1285.9,345.3c0,1.4,0.6,2.4,1.8,2.2c1.2-0.3,1.9-1.7,1.9-3.1c0-1.3-0.5-2.4-1.8-2.1
+						C1286.5,342.5,1285.9,343.9,1285.9,345.3z"/>
+					<path class="st55" d="M1295.3,345.9c-0.3,0.2-0.8,0.5-1.5,0.7c-1.6,0.4-2.9-0.4-2.9-2.5c0-2,1.2-3.6,3-4
+						c0.7-0.2,1.2-0.1,1.4-0.1l-0.2,0.7c-0.3-0.1-0.7-0.1-1.2,0c-1.3,0.3-2.2,1.5-2.2,3.1c0,1.6,0.8,2.4,2.2,2
+						c0.5-0.1,0.9-0.3,1.2-0.6L1295.3,345.9z"/>
+					<path class="st55" d="M1296.9,339.4l0.2,6.3l-0.8,0.2l-0.1-6.3L1296.9,339.4z"/>
+					<path class="st55" d="M1299.2,343.1l-0.5,2.2l-0.8,0.2l1.8-6.8l0.9-0.2l2.3,5.8l-0.8,0.2l-0.7-1.9L1299.2,343.1z M1301.1,342
+						l-0.6-1.7c-0.1-0.4-0.2-0.7-0.3-1.1l0,0c-0.1,0.4-0.1,0.8-0.2,1.2l-0.5,2L1301.1,342z"/>
+					<path class="st55" d="M1303.3,337.7l0.8-0.2l0.3,5.6l2.5-0.6l0,0.7l-3.3,0.8L1303.3,337.7z"/>
+				</g>
+				<polygon class="st53" points="1407,306 1358,321.9 1358,332.1 1407,319.1 			"/>
+				<polygon class="st54" points="1410,306 1407,306 1407,318.7 1410,319.1 			"/>
+				<polygon class="st54" points="1360.6,332.7 1357.3,332.1 1407.1,318.7 1410.3,319.1 			"/>
+				<g>
+					<path class="st55" d="M1361,322.3l3.7-1.1l0,0.8l-2.8,0.8l0,2.5l2.6-0.8l0,0.8l-2.6,0.8l0,3.4l-0.9,0.3L1361,322.3L1361,322.3z"
+						/>
+					<path class="st55" d="M1366.8,320.5l0,7.6l-0.9,0.3l0-7.6L1366.8,320.5z"/>
+					<path class="st55" d="M1368.4,327.7l0-7.6l1-0.3l2.2,3.2c0.5,0.8,0.9,1.4,1.2,2.1l0,0c-0.1-1-0.1-1.9-0.1-3.1l0-3.2l0.9-0.3
+						l-0.1,7.7l-0.9,0.3l-2.2-3.2c-0.5-0.7-0.9-1.4-1.3-2.2l0,0c0,1,0.1,1.9,0.1,3.1l0,3.3L1368.4,327.7z"/>
+					<path class="st55" d="M1378.8,321l-2.7,0.8l0,2.8l3.1-0.9l0,0.8l-4,1.2l0.1-7.7l3.8-1.2l0,0.8l-2.9,0.9l0,2.5l2.7-0.8
+						L1378.8,321z"/>
+					<path class="st55" d="M1383.8,320.7l-0.8,2.7l-1,0.3l2.6-8.6l1.1-0.3l2.3,7.1l-1,0.3l-0.7-2.2L1383.8,320.7z M1386.2,319.2
+						l-0.7-2.1c-0.2-0.5-0.3-0.9-0.4-1.3l0,0c-0.1,0.5-0.2,1-0.4,1.5l-0.7,2.5L1386.2,319.2z"/>
+					<path class="st55" d="M1389.3,313.7c0.5-0.3,1.2-0.5,1.8-0.7c1-0.3,1.7-0.3,2.1,0c0.4,0.2,0.6,0.7,0.6,1.3
+						c0,1.1-0.7,1.9-1.5,2.5l0,0c0.6,0.1,0.9,0.5,1.1,1.3c0.2,1,0.4,1.8,0.5,2l-1,0.3c-0.1-0.2-0.3-0.8-0.5-1.8
+						c-0.2-1-0.6-1.3-1.5-1.1l-0.9,0.3l-0.1,3.4l-1,0.3L1389.3,313.7z M1390.2,317.1l1-0.3c1-0.3,1.7-1.1,1.7-2c0-1-0.7-1.3-1.7-1
+						c-0.5,0.1-0.8,0.3-0.9,0.4L1390.2,317.1z"/>
+					<path class="st55" d="M1396.8,312.2l-2.3,0.7l0-0.9l5.6-1.7l0,0.9l-2.3,0.7l-0.2,7.2l-1,0.3L1396.8,312.2z"/>
+					<path class="st55" d="M1400.6,317c0.4,0.2,1.1,0.2,1.7,0c1-0.3,1.6-1,1.6-1.9c0-0.8-0.4-1.1-1.4-1.2c-1.2-0.1-2-0.6-1.9-1.7
+						c0-1.3,1-2.5,2.5-2.9c0.8-0.2,1.4-0.2,1.7-0.1l-0.3,0.9c-0.2-0.1-0.8-0.2-1.5,0.1c-1,0.3-1.5,1.1-1.5,1.7c0,0.8,0.4,1,1.5,1.1
+						c1.3,0.2,1.9,0.6,1.9,1.8c0,1.3-1,2.6-2.8,3.1c-0.7,0.2-1.5,0.2-1.9,0L1400.6,317z"/>
+				</g>
+				<polygon class="st53" points="1516,273.8 1473.7,287.4 1473.3,302.7 1516.3,291.2 			"/>
+				<polygon class="st54" points="1520,274 1516,274 1516,290.7 1520,291.2 			"/>
+				<polygon class="st54" points="1477.1,302.4 1473.3,301.8 1516.2,290.6 1520,291.1 			"/>
+				<g>
+					<path class="st55" d="M1488.7,296.8c-1.1-0.1-2.2-0.2-3.5-0.3c-0.2,0-0.4,0-0.6,0c-2.4,0.4-4-1.2-4.2-3.9
+						c-0.2-2.9,1.2-5.4,3.7-6.1c2.6-0.7,4.2,1.1,4.4,3.9c0.2,2.4-0.8,4.3-2.2,5.3l0,0.1c0.9,0,1.9,0,2.7,0L1488.7,296.8z
+						 M1487.3,290.7c-0.2-2-1.2-3.8-3.2-3.2c-1.9,0.5-2.7,2.7-2.5,4.7c0.2,2.1,1.2,3.6,3.1,3.2C1486.6,295,1487.4,292.9,1487.3,290.7
+						z"/>
+					<path class="st55" d="M1490.9,284.7l0.4,6c0.2,2.2,1.2,2.9,2.5,2.6c1.4-0.3,2.3-1.6,2.1-3.8l-0.4-6.1l1.3-0.4l0.4,6
+						c0.2,3.1-1.3,4.8-3.4,5.3c-2,0.5-3.5-0.4-3.7-3.4l-0.4-5.9L1490.9,284.7z"/>
+					<path class="st55" d="M1500.4,282l0.7,10.4l-1.3,0.3l-0.7-10.4L1500.4,282z"/>
+					<path class="st55" d="M1502.7,291.3l5.4-10.2l0,0l-5.5,1.5l-0.1-1.1l7.4-2.1l0.1,0.9l-5.5,10.3l0,0l6.1-1.5l0.1,1.2l-7.9,1.8
+						L1502.7,291.3z"/>
+				</g>
+				<polygon class="st53" points="1695,217.5 1597,248.5 1597,268.6 1695,243.1 			"/>
+				<polygon class="st54" points="1701,217 1695,217 1695,242.4 1701,243.1 			"/>
+				<polygon class="st54" points="1602.8,269.7 1596.3,268.6 1695.1,242.4 1701.3,243.1 			"/>
+				<g>
+					<path class="st55" d="M1605.2,249.8l1.6-0.5l-0.1,12.9l5.2-1.4l0,1.6l-6.8,1.8L1605.2,249.8z"/>
+					<path class="st55" d="M1615.3,246.7l0,14.8l-1.7,0.4l0-14.8L1615.3,246.7z"/>
+					<path class="st55" d="M1620.5,246.7l-3.9,1.2l0-1.6l9.5-2.9l0,1.6l-4,1.2l0.2,13.4l-1.7,0.5L1620.5,246.7z"/>
+					<path class="st55" d="M1634.8,249l-5.3,1.5l0.1,5.6l6-1.6l0,1.7l-7.7,2.1l-0.3-15.2l7.3-2.2l0,1.6l-5.6,1.7l0.1,4.8l5.3-1.5
+						L1634.8,249z"/>
+					<path class="st55" d="M1637.5,240.1c0.9-0.5,2.2-1,3.5-1.4c1.9-0.6,3.2-0.6,4.2,0c0.7,0.5,1.2,1.4,1.3,2.6
+						c0.1,2.1-1.1,3.8-2.6,4.8l0,0c1.1,0.1,1.8,1.1,2.3,2.6c0.6,2.1,1,3.6,1.3,4.1l-2,0.5c-0.3-0.4-0.6-1.7-1.1-3.6
+						c-0.5-2-1.3-2.7-3-2.3l-1.7,0.5l0.2,6.8l-1.9,0.5L1637.5,240.1z M1639.5,246.6l1.9-0.5c2-0.6,3.2-2.1,3.1-3.9
+						c-0.1-2-1.4-2.5-3.4-1.9c-0.9,0.3-1.5,0.5-1.8,0.7L1639.5,246.6z"/>
+					<path class="st55" d="M1651.8,246.6l-1.3,5.5l-2,0.5l4.3-17.4l2.3-0.7l6.2,14.7l-2.2,0.6l-1.9-4.7L1651.8,246.6z M1656.7,243.6
+						l-1.7-4.2c-0.4-0.9-0.7-1.8-0.9-2.7l-0.1,0c-0.2,1-0.3,2-0.6,3.1l-1.2,5L1656.7,243.6z"/>
+					<path class="st55" d="M1662.6,232.5c1-0.5,2.5-1.1,3.9-1.5c2.2-0.7,3.6-0.7,4.7-0.1c0.8,0.5,1.4,1.5,1.5,2.7
+						c0.2,2.2-1.1,4-2.7,5.1l0,0c1.3,0.1,2.1,1.1,2.6,2.7c0.7,2.2,1.2,3.7,1.6,4.3l-2.2,0.6c-0.3-0.4-0.8-1.8-1.4-3.7
+						c-0.6-2.1-1.6-2.8-3.5-2.3l-1.9,0.6l0.5,7.2l-2.1,0.6L1662.6,232.5z M1665.1,239.3l2.1-0.6c2.2-0.6,3.5-2.3,3.4-4.2
+						c-0.2-2.1-1.7-2.6-3.9-1.9c-1,0.3-1.7,0.6-2,0.8L1665.1,239.3z"/>
+					<path class="st55" d="M1680.2,244.2l-0.6-7.2l-6-8l2.4-0.7l2.7,3.9c0.8,1.1,1.3,2,2,3l0.1,0c0.4-1.2,0.9-2.5,1.4-4l2-5.3
+						l2.5-0.8l-4.8,11.3l0.6,7.3L1680.2,244.2z"/>
+				</g>
+			</g>
+		</g>
+		
+			<linearGradient id="SVGID_44_" gradientUnits="userSpaceOnUse" x1="327.8283" y1="397" x2="895.4843" y2="397" gradientTransform="matrix(-1 0 0 -1 2071.6563 796)">
+			<stop  offset="0" style="stop-color:#000000"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</linearGradient>
+		<polygon class="st66" points="1743.8,782.6 1176.2,470.7 1176.6,340.7 1742.2,15.4 	"/>
+	</g>
+	<g id="Layer_4">
+	</g>
+	<g id="Inner_theatre_blink_light">
+		
+			<linearGradient id="SVGID_45_" gradientUnits="userSpaceOnUse" x1="1058.625" y1="327.333" x2="1058.625" y2="302" gradientTransform="matrix(1 0 0 -1 0 796)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.6555" style="stop-color:#FFFFC5;stop-opacity:0.3445"/>
+			<stop  offset="1" style="stop-color:#FFFFAC;stop-opacity:0"/>
+		</linearGradient>
+		<polygon class="st67" points="1159.8,494 957.5,493 973.6,468.7 1146.3,468.7 	"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spring Fest 2017 | IIT Kharagpur</title>
+	<link rel="icon" type="image/png" href="/sf.png">
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+	
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/ion.sound.min.js"></script>
+	<script type="text/javascript" src="assets/js/transit.js"></script>
+	<script type="text/javascript" src="assets/js/snap.svg-min.js"></script>
+	<script type="text/javascript" src="assets/js/ScrollMagic.js"></script>
+	<script type="text/javascript" src="assets/js/debug.addIndicators.min.js"></script>
+
+	<!-- JSON for all the event data -->
+	<script type="text/javascript" src="assets/js/event.json"></script>
+</head>
+<body>
+	<div id="loader">
+		<div id="loadingLabel"><span id="percent">0</span><span id="p_sign">%</span></div>
+		<object id='loading_screen' type="image/svg+xml" data="assets/svg/loader.svg" width='100%' height='100%'>Your browser does not support SVG</object>
+	</div>
+	<div id="customactions" class="preload">
+			<label>scroll direction</label>
+			<code id="scrollDirection"></code>
+			<br>
+			<label>state</label>
+			<code id="state">outside</code>
+			<br>
+			<label>last hit</label>
+			<code id="lastHit">nothing</code>
+			<br>
+			<label>progress</label>
+			<code id="progress">0</code>
+	</div>
+	<div class="preload" style="position:fixed;bottom:10px;right:5px;z-index:50000;background:rgba(0,0,0,1);border-radius:5px;color:white;padding:10px;">
+		<a href="https://docs.google.com/spreadsheets/d/11Nl9bFkKeRRRDckOJadu9RtItKoNWyFNZrEJ-vUv6PI/edit?usp=sharing" target="_blank">
+		Click here for any QUERIES/SUGGESTIONS.
+		</a>
+		<br />
+		<span style="font-size:14px;color:red">Will not be visible in PRODUCTION.</span>
+		<br />
+		<span style="font-size:14px;color:red">ZNETLIVE will come here in production</span>
+	</div>
+
+	<div class="top-logo">
+		<a href="http://springfest.in"><img src="assets/img/sf.png" /></a>
+		<a href="http://iitkgp.ac.in" target="_blank"><img src="assets/img/iit.png" /></a>
+		<img src="assets/img/UNESCO_logo_white.png" />
+	</div>
+
+	<img src="assets/img/mute.png" id="mute" class="sound"/>
+	<img src="assets/img/unmute.png" id="unmute" class="sound"/>
+	
+	<nav id="custom_navbar" class="preload" >
+		<div id="nav_icon_wrapper">
+			<div class="nav_line" id="one"></div>
+			<div class="nav_line" id="two"></div>
+			<div class="nav_line" id="three"></div>
+		</div>
+		<div id="nav_tabs_grp">
+			<div class="nav-tab" id="n_first" style="width:5vw"></div>
+			<div class="nav-tab" data-id="home">Home</div>
+			<div class="nav-tab" data-id="events">Events</div>
+			<div class="nav-tab" data-id="pronites">Pronites</div>
+			<a href="http://springfest.in/sponsors" target="_blank"><div class="nav-tab" data-id="sponsors">Sponsors</div></a>
+			<div class="nav-tab" data-id="faq">FAQ</div>
+			<div class="nav-tab" data-id="testimonials">Testimonials</div>
+			<div class="nav-tab" data-id="ourteam">Our Team</div>
+			<a href="/register" target="_blank"><div class="nav-tab" data-id="registerlogin" style="width:15vw">Register/Login</div></a>
+		</div>
+	</nav>
+
+	<div class="custom_modal animated fadeIn" data-id="faq">
+		<div class="modal_close"><span>X</span></div>
+		<div id="modal_body">
+			<span id="modal_header">Frequently Asked Questions</span>
+			<hr/>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What is the duration of the registration process during the fest?
+					</div>
+					<div class="a">
+						Registration process will start from 19th and will be open during all the time of fest except for 6pm to 11pm during the time of star nights. Entry to the star nights will only be allowed after the completion of registration.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What all deliverables do we receive after registering?
+					</div>
+					<div class="a">
+						Registration fee includes exclusive Spring Fest T-shirts, accommodation and an ID-card which ensures the participant gets free entry into all star nights and free workshops from the best national institutions for dance, dramatics, photography and other genres. Winners get internship opportunities (selected events) apart from the cash awards given.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What kind of accommodation is available?
+					</div>
+					<div class="a">
+						There is separate accommodation for girls and boys. Proper bedding and blanket would be made available to all the registered students.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What are SF IDs?
+					</div>
+					<div class="a">
+						SF IDs are unique identification codes issued to participants as they register themselves. Participants are required to report with their SF IDs at the control tent and that will be required for further participation in any event.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Is food included in the registration fee?
+					</div>
+					<div class="a">
+						No, food is not included in the registration amount. However, there are food stalls available in the arena as long as it is open. Apart from this, there are various eateries and canteens in the campus where food is available at affordable rates.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Can I register, but not take accommodation?
+					</div>
+					<div class="a">
+						The registration amount remains unchanged in both the cases. It is advisable to avail the accommodation facility since there is no other mode of accommodation available in the campus during the fest.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						How long will the accommodation be provided? 
+					</div>
+					<div class="a">
+						Registrants will be provided accommodation for 5 days and 4 nights, i.e., from 19th January to 23rd January.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						I want to attend star nights only. Will I have to pay the whole registration fee?
+					</div>
+					<div class="a">
+						Yes, the registration amount remains the same for attending any sort of event associated with SPRING FEST 2017 which includes the star nights too.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						How do I reach the fest?
+					</div>
+					<div class="a">
+						Spring Fest takes place in the IIT KGP campus in Kharagpur, situated 130 km away from Kolkata (almost three hours by road). The campus is situated 15 minutes distance away from Kharagpur railway station, which is well-connected to all major cities of India. Participants can avail reception service from the station to the campus (for details see below). Otherwise, public transport from the campus to the station is also easily available. 
+						To avail reception service from KGP Station to IIT KGP, the participants need to update their travel details on the accommodation portal after registering on the website. Travel facility would be available from 19th January till 23rd January all time except during the time of star nights i.e. from 7pm to 12pm.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Do all the teams have to register together for contesting for the Spring Fest Championship?
+					</div>
+					<div class="a">
+						For participating in Spring Fest Championship a college contingent need not register together. The cumulative scores would be calculated on the basis of the performance of all the teams from your college.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Can two participants be from different colleges in a team event?
+					</div>
+					<div class="a">
+						Yes. Spring Fest does not restrict cross participation from colleges in a team event (apart from inter-collegiate events). But in the event of cross participation, the colleges would not be awarded points and considered for SF Championship in that particular event.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Our college team shall be accompanied by a teacher who will be chaperoning us. What sort of accommodation can be provided to her?
+					</div>
+					<div class="a">
+						There are three on-campus guest houses where chaperones can be accommodated, subject to availability of rooms. Please follow the link: www.iitkgp.ac.in/gh/ to book rooms in the guest houses. It is advisable to book rooms in the guest houses well in advance, for they run the risk of being completely occupied during the time of the fest. Alternatively, chaperones can also be provided accommodation with the students against the payment of the regular registration fee for the fest. The organising team is not responsible for the accommodation of the chaperones in guest house.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						Is there any provision for on-spot registration?
+					</div>
+					<div class="a">
+						On-spot registration is subject to the availability of the slots of an event.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What should I do in case of loss of my SF ID card during the fest?
+					</div>
+					<div class="a">
+						It is highly advisable to take care of your SF ID card. The issue of another ID card is upto the discretion of the organizing team. In case of the loss of ID card, please report to the control tent.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What is the process for star night entry?
+					</div>
+					<div class="a">
+						For IIT Kharagpur Students: KGPians are expected to showcase their institute ID cards at the entry points. In the absence of ID card, they are supposed to get the FIR of the lost ID card along with their BC Roy Medical Book.
+						<br />
+						For Outstation Participants: Participants are to showcase their SF ID card (issued at the Registration Tent) along with their college ID card at the entry points.
+					</div>
+				</div>
+			</div>
+			<div class="q_a_wrapper">
+				<div class="q_a">
+					<div class="q">
+						What are the DON'Ts during the time of fest?
+					</div>
+					<div class="a">
+						No obscene clothing
+						No abusive substance is allowed
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<div class="custom_modal animated fadeIn" data-id="pronites">
+		<div class="modal_close"><span>X</span></div>
+		<div id="modal_body">
+			<span id="modal_header">Pronites</span>
+			<hr/>
+			<div class="pronites_wrapper">
+				Will be releasing soon. Keep looking!!
+			</div>
+		</div>
+	</div>
+		
+	<div class="custom_modal animated fadeIn" data-id="testimonials">
+		<div class="modal_close"><span>X</span></div>
+		<div id="modal_body">
+			<span id="modal_header">Testimonials</span>
+			<hr/>
+			<div class="testimonial-wrapper">
+				<div class="testimonial-text">
+					It's always a pleasure to play to a young college crowd, more so at an esteemed institution as an IIT. But playing for Spring Fest 2014 without doubt exceeded all our expectations. The 20000 strong crowd not only enjoyed the music dished out but took active part by singing along all the tracks the duo performed. IIT Kharagpur Spring fest was our 3rd concert in a span of 3 days, but it rejuvenated us by the sheer energy the audience exuded. We look forward to visit IIT kharagpur many more times in the years to come.
+				</div>
+				<div class="testimonial-name">
+					-Salim Sulaiman
+				</div>
+			</div>
+			<div class="testimonial-wrapper">
+				<div class="testimonial-text">
+					We had a blast! Thanks, IIT-KGP!
+				</div>
+				<div class="testimonial-name">
+					-Vishal Dadlani (Pentagram)
+				</div>
+			</div>
+			<div class="testimonial-wrapper">
+				<div class="testimonial-text">
+					It was a great show. We had an amazing time here. It was mind blowing to see people enjoying Dead By April music in this part of the world, and we would love to come back again! The stay at the university was brilliant as well, the hospitality was taken care of very efficiently. The people here were really nice and so was the food. Spring Fest was a blast!
+				</div>
+				<div class="testimonial-name">
+					-Dead By April
+				</div>
+			</div>
+			<div class="testimonial-wrapper">
+				<div class="testimonial-text">
+					Swarathma has lovely memories of IIT Kharagpur. It's a delight to play for an audience that loves and knows its music. Beginning with the journey to Kharagpur, the way we were taken care of, arriving at the calm and serene campus: we just knew that this show would be special. I've always been excited about being part of cultural festivals, having been an active participant in my college days. I spent the morning before the soundcheck watching Wildfire prelims, reliving the days gone by! When the show began it was high energy from the word go! I loved the diversity of the audience, from IITians to those who had come to participate. There's always a ripple of thrill that goes through the crowd when Vasu gets into the audience: IIT Kgp was no different. But my most treasured memory is us leading the chant of "KGP ka Tempo - High Hai" as part of our song. That was just insane! Here's hoping we meet again, at another gig, really soon.
+				</div>
+				<div class="testimonial-name">
+					-Swarathma
+				</div>
+			</div>
+			<div class="testimonial-wrapper">
+				<div class="testimonial-text">
+					It was really nice! Enjoyed Spring Fest to the fullest. The energy of the crowd was simply unbelievable, really exciting! 
+				</div>
+				<div class="testimonial-name">
+					-Papon
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="outer_text_header" class="animated fadeIn preload">
+		Start Scrolling to promenade Bollywood
+	</div>
+	<div id="outer_container" class="preload">
+		<object id='outer_theatre' type="image/svg+xml" data="assets/svg/outer-theatre.svg" width='100%' height='100%'>Your browser does not support SVG</object>
+	</div>
+	<div id="counter_container" class="preload">
+		<object id='counter' type="image/svg+xml" data="assets/svg/counter.svg" width='100%' height='100%'>Your browser does not support SVG</object>
+	</div>
+	<div id="corridor_container" class="preload">
+		<object id='corridor' type="image/svg+xml" data="assets/svg/corridor_linked.svg" width='100%' height='100%'>Your browser does not support SVG</object>
+	</div>
+	<div id="theatre_container" class="preload">
+		<div id="allGenres" class="theatre_screen">
+			<div class="row allGenres_row" >
+				<div class="col-sm-3 genre_box" data-id="dance">
+					<span>DANCE</span>
+					<svg version="1.1" id="genre_box_dance" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="141.73px" height="141.73px" viewBox="0 0 141.73 141.73" enable-background="new 0 0 141.73 141.73" xml:space="preserve">
+						<g id="Dance">
+							<path id="XMLID_14_" fill="#FFFFFF" d="M73.004,120.217c-2.923-1.278-3.563-2.649-2.832-5.847
+								c1.097-4.477,2.102-8.861,3.289-13.246c1.371-5.025,1.461-10.05,0.366-15.074c-0.366-1.645-0.549-3.197-0.823-4.842
+								c-0.09-0.55-0.273-0.823-0.913-1.097c-0.914-0.366-1.736-0.914-2.558-1.371c-0.458-0.273-0.914-0.548-1.371-0.64
+								c-4.66-1.188-9.227-2.374-13.887-3.563c-5.116-1.278-8.588-5.664-8.588-10.962c0-5.39,0-10.78,0-16.171
+								c0-2.923,2.467-4.75,5.025-3.836c1.553,0.548,2.466,2.01,2.466,3.836c0,5.208,0,10.415,0,15.714c0,2.284,0.914,3.472,3.106,4.02
+								c3.289,0.822,6.486,1.644,9.958,2.558c-0.274-1.645-0.548-3.105-0.73-4.567c-0.548-3.106-1.097-6.213-1.645-9.228
+								c-0.457-2.649,0.365-4.294,2.741-5.573c0.274-0.183,0.548-0.457,0.822-0.64c2.74-2.832,5.482-5.573,8.13-8.405
+								c1.919-2.102,2.65-4.568,2.194-7.4c-0.366-2.375-0.915-4.751-1.371-7.126c-0.457-2.649-0.273-3.197,2.011-4.476
+								c0.273,0,0.547,0,0.913,0c1.553,0.64,2.192,1.827,2.466,3.472c0.366,2.284,0.913,4.568,1.279,6.852
+								c0.823,4.841-0.366,9.044-3.745,12.607c-1.279,1.371-2.559,2.649-3.837,4.02c-0.184,0.183-0.366,0.457-0.64,0.822
+								c0.64,0,1.005,0,1.369,0c11.329,0,22.566,0,33.895,0c1.735,0,3.015,0.457,3.653,2.102c0,0.548,0,1.004,0,1.553
+								c-0.821,1.553-2.191,2.01-3.927,2.01c-8.405-0.091-16.811,0-25.216,0c-0.456,0-0.822,0-1.369,0c-0.64,3.38-1.188,6.669-1.736,9.958
+								c-0.64,3.38-1.188,6.669-1.827,10.05c-0.092,0.273,0,0.639,0.091,0.913c0.731,4.568,1.553,9.044,2.102,13.611
+								c0.548,4.842-0.273,9.502-1.553,14.161c-1.005,3.928-2.011,7.857-2.833,11.786c-0.456,1.918-1.279,3.471-3.197,4.201
+								C73.918,120.217,73.461,120.217,73.004,120.217z"/>
+							<path id="XMLID_12_" fill="#FFFFFF" d="M54.824,41.649c0-4.567,3.563-8.222,8.039-8.313c4.477,0,8.131,3.746,8.04,8.313
+								c0,4.568-3.654,8.223-8.131,8.223C58.387,49.872,54.824,46.125,54.824,41.649z"/>
+							
+								<circle id="XMLID_10_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" cx="70.903" cy="71.158" r="64.133"/>
+						</g>
+					</svg>
+
+				</div>
+				<div class="col-sm-3 genre_box" data-id="dramatics">
+					<span>DRAMATICS</span>
+					<svg version="1.1" id="genre_box_dramatics" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Dramatics">
+							<path id="XMLID_109_" fill="#FFFFFF" d="M107.117,165.858c-2.779-0.906-5.687-1.418-8.342-2.704
+								c-8.092-3.736-11.882-10.681-13.524-19.045c-0.635-3.216-0.759-6.433-0.759-9.655c-0.127-13.124,0-26.123,0-39.248
+								c0-5.148,3.79-7.977,8.595-6.307c3.159,1.159,6.194,2.704,9.353,3.863c7.705,2.704,15.293,1.804,22.757-1.544
+								c1.89-0.899,3.787-1.671,5.684-2.318c3.408-1.152,5.939-0.125,7.712,3.09c0.124,0.387,0.373,0.646,0.635,0.906
+								c0,15.821,0,31.783,0,47.611c-0.262,1.159-0.511,2.443-0.759,3.603c-1.648,8.364-5.436,15.309-13.402,19.045
+								c-2.656,1.286-5.691,1.798-8.471,2.704C113.437,165.858,110.276,165.858,107.117,165.858z M95.615,142.053
+								c1.77,7.331,8.723,12.093,16.938,11.833c7.837-0.254,14.41-5.274,15.549-11.833C117.23,142.053,106.49,142.053,95.615,142.053z
+								 M124.177,124.031c3.793,0,6.828-3.215,6.953-7.33c0.13-3.988-3.028-7.464-6.69-7.599c-3.671-0.126-6.954,3.224-6.954,7.212
+								C117.354,120.69,120.258,124.031,124.177,124.031z M106.358,116.701c0-4.122-2.903-7.464-6.698-7.599
+								c-3.793-0.126-6.953,3.351-6.953,7.466c0,4.122,3.032,7.463,6.825,7.463C103.323,124.031,106.358,120.816,106.358,116.701z"/>
+							<path id="XMLID_106_" fill="#FFFFFF" d="M96.753,58.409c3.284,1.924,4.421,4.761,4.296,8.616
+								c-0.254,5.921-0.127,11.967-0.127,18.272c-2.021-1.025-3.794-1.93-5.563-3.082c-6.446-4.249-15.293,0.513-15.924,8.363
+								c-0.379,4.888-0.255,9.908-0.379,14.796c0,0.513,0,1.033,0,1.672c-5.691-1.672-11-1.159-15.928,2.317
+								c-3.035,2.058-5.057,5.407-5.814,8.75c7.205,0,14.282,0,21.615,0c0,5.918,0,11.579,0,17.373c-15.8,2.57-29.958-4.374-32.358-23.68
+								c-0.128-0.772-0.252-1.545-0.38-2.317c0-15.309,0-30.751,0-46.066c0.759-2.184,2.273-3.729,4.17-5.014c1.01,0,2.024,0,3.034,0
+								c1.518,0.639,2.908,1.151,4.425,1.798c6.699,3.216,13.651,5.407,21.108,3.603c5.056-1.286,9.861-3.603,14.789-5.4
+								C94.604,58.409,95.74,58.409,96.753,58.409z M68.057,86.843c0-4.115-2.907-7.333-6.825-7.333c-3.791,0-6.826,3.217-6.826,7.333
+								c0,4.248,3.035,7.59,6.826,7.59C65.15,94.181,68.057,90.965,68.057,86.843z"/>
+							<path id="XMLID_7_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M99.533,8.094
+								c49.007,0,88.739,40.442,88.739,90.328c0,49.894-39.732,90.336-88.739,90.336s-88.736-40.442-88.736-90.336
+								C10.797,48.536,50.526,8.094,99.533,8.094z"/>
+						</g>
+					</svg>
+				</div>
+				<div class="col-sm-3 genre_box" data-id="finearts">
+					<span>FINEARTS</span>
+					<svg version="1.1" id="genre_box_finearts" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Fine_arts">
+							<path id="XMLID_287_" fill="#FFFFFF" d="M102.756,135.93c-1.897,0-3.794,0-5.815,0c-0.631-0.126-1.139-0.258-1.769-0.258
+								c-9.23-0.77-17.949-3.076-25.789-8.066c-6.191-3.845-11.375-8.709-14.03-15.754c-0.631-1.538-1.011-3.201-1.391-4.864
+								c0-1.797,0-3.719,0-5.509c1.138-4.102,4.174-5.891,7.964-6.15c3.54-0.258,7.078-0.258,10.62-0.384
+								c2.021-0.126,4.042-0.384,5.939-0.77c0.631-0.125,1.137-1.02,1.769-1.537c-0.503-0.51-1.01-1.279-1.641-1.538
+								c-2.025-0.895-4.297-1.664-6.322-2.558c-5.309-2.432-5.939-5.508-2.274-10.121c3.54-4.354,8.216-6.529,13.4-7.681
+								c1.011-0.259,2.021-0.385,3.16-0.643c-1.897-2.691-3.667-5.249-5.436-7.682c-0.256-0.258-0.631-0.518-0.887-0.643
+								c-4.425-1.028-8.215-5.381-8.467-9.988c-0.127-2.565-0.127-5.123-0.127-7.688c0-1.153,0.759-1.664,1.769-1.279
+								c2.401,0.769,4.805,1.663,7.078,2.558c4.425,1.796,7.208,6.92,6.574,11.784c0,0.385,0.127,1.027,0.379,1.413
+								c2.404,3.326,4.804,6.786,7.205,10.114c0.379,0.517,1.138,0.901,1.769,0.901c2.528,0.126,4.932,0,7.46,0.126
+								c2.149,0.125,4.418,0.384,6.826,0.643C100.352,87.13,90.115,103.527,79.75,120.05c2.148,1.405,4.042,2.691,6.191,3.97
+								c10.748-17.292,21.487-34.457,32.359-51.875c-2.649-0.636-5.05-1.279-7.457-1.79c0.131-0.258,0.255-0.384,0.255-0.643
+								c2.152-3.46,4.298-6.787,6.318-10.247c0.249-0.384,0.511-1.02,0.38-1.538c-0.883-4.479,1.518-9.729,5.566-11.651
+								c2.4-1.153,4.926-2.181,7.326-3.202c1.014-0.384,1.766,0,1.766,1.146c0.131,2.823,0.386,5.641,0.262,8.457
+								c-0.131,4.354-3.918,8.967-7.967,9.862c-0.255,0.126-0.759,0.258-0.89,0.51c-1.891,3.076-3.788,6.151-5.809,9.227
+								c4.926,1.663,9.479,3.711,13.651,6.528c5.939,4.103,10.492,9.227,12.893,16.264c0.379,1.286,0.759,2.565,1.138,3.844
+								c0,2.564,0,5.123,0,7.688c-0.131,0.252-0.255,0.512-0.255,0.637c-1.139,5.641-3.918,10.379-7.836,14.476
+								c-7.201,7.296-16.184,11.141-26.04,13.063C108.698,135.161,105.663,135.42,102.756,135.93z M82.278,85.34
+								c1.77-0.643,3.54-1.027,5.057-1.921c2.148-1.279,2.148-3.586,0.124-5.123c-2.652-2.048-7.708-2.048-10.237,0
+								c-1.897,1.537-2.024,3.844,0,5.123C78.612,84.313,80.506,84.698,82.278,85.34z M84.552,62.667c1.517,2.181,3.035,4.228,4.424,6.276
+								c0.76,1.153,1.519,0.895,2.656,0.51c-1.896-2.684-3.793-5.249-5.69-7.939C85.562,61.898,85.186,62.157,84.552,62.667z"/>
+							<path id="XMLID_11_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M99.848,8.234
+								c49.011,0,88.737,40.259,88.737,89.912c0,49.659-39.727,89.911-88.737,89.911c-49.007,0-88.737-40.252-88.737-89.911
+								C11.111,48.493,50.84,8.234,99.848,8.234z"/>
+						</g>
+					</svg>
+				</div>
+				<div class="col-sm-3 genre_box" data-id="humorfest">
+					<span>HUMOR FEST</span>
+					<svg version="1.1" id="genre_box_humor" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Humor_Fest">
+							<path id="XMLID_104_" fill="#FFFFFF" d="M150.46,99.134c0,27.958-22.671,50.45-51.128,50.45c-28.34,0-51.127-22.492-51.127-50.45
+								c0-28.087,22.787-50.45,51.375-50.45C127.789,48.684,150.46,71.299,150.46,99.134z M65.837,104.851
+								c-1.01,9.813,5.03,20.627,14.734,26.093c12.967,7.33,26.188,7.209,38.909-0.746c8.94-5.716,13.724-13.914,13.854-25.476
+								C110.533,111.435,88.248,111.313,65.837,104.851z M120.992,98.137c0.371-4.468-0.124-8.198-2.144-11.433
+								c-2.145-3.479-6.804-4.224-9.566-1.492c-3.408,3.486-3.779,7.833-3.532,12.925C110.794,91.302,115.701,91.058,120.992,98.137z
+								 M77.04,97.147c3.271-1.621,5.793-3.98,8.438-3.98c2.515,0,5.037,2.488,8.185,4.103c-0.88-3.357-1.512-6.713-2.522-9.941
+								c-0.879-2.488-3.017-3.729-5.786-3.729c-2.776,0-4.913,1.241-5.793,3.729C78.551,90.557,77.918,93.913,77.04,97.147z"/>
+							<path id="XMLID_5_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M99.332,11.782
+								c48.819,0,88.402,39.051,88.402,87.223c0,48.179-39.583,87.23-88.402,87.23c-48.825,0-88.401-39.051-88.401-87.23
+								C10.93,50.833,50.506,11.782,99.332,11.782z"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<div class="row allGenres_row">
+				<div class="col-sm-3 genre_box" data-id="informals">
+					<span>INFORMALS</span>
+					<svg version="1.1" id="genre_box_informals" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Informals">
+							<path id="XMLID_197_" fill="#FFFFFF" d="M76.286,154.617c0.378-3.013,0.506-6.019,1.264-9.03c0.63-3.013,3.022-4.396,6.052-4.396
+								c-4.414-11.166-2.272-20.826,7.697-27.72c8.331-5.771,18.301-4.396,24.979,0.623c4.172,3.135,6.939,7.277,8.33,12.419
+								c1.268,5.018,0.51,9.913-1.762,14.678c0.503,0.13,0.757,0.13,1.129,0.13c2.905,0.5,4.545,2.383,5.054,5.019
+								c0.496,2.759,0.757,5.518,1.253,8.277c-0.626,0-1.253,0-1.762,0c-1.764-0.377-3.402-0.877-5.171-1.253
+								c-2.775-0.63-5.302-1.76-6.06-4.896l-0.123-0.123c-9.337,6.395-18.549,6.147-27.885-0.377c-0.503,3.636-3.154,4.766-6.184,5.519
+								c-1.384,0.376-2.774,0.753-4.162,1.13C77.929,154.617,77.171,154.617,76.286,154.617z M103.162,120.742
+								c-0.634,0.883-1.012,1.636-1.646,2.39c-3.153,3.888-7.436,6.018-12.234,7.146c-1.261,0.254-1.639,0.754-1.515,2.007
+								c0.502,6.277,3.532,10.789,9.336,13.425c9.343,4.389,21.578-2.006,21.957-13.672c0-1.13-0.379-1.506-1.391-1.76
+								C111.61,128.902,106.446,126.267,103.162,120.742z"/>
+							<path id="XMLID_194_" fill="#FFFFFF" d="M162.077,119.112c-3.91-0.999-7.944-2.006-11.731-3.135
+								c-1.26-0.377-2.272-0.254-3.402,0.253c-9.845,4.888-22.21,1.506-28.008-7.777c-6.692-10.542-3.284-24.337,7.945-30.616
+								c10.473-5.771,23.589-2.006,29.647,8.53c2.396,4.142,3.153,8.661,2.52,13.302c0,0.376-0.123,0.876,0.131,1.129
+								c1.894,2.006,2.396,4.512,2.898,7.147c0,0.254,0.132,0.63,0.255,0.884C162.077,112.342,162.077,115.724,162.077,119.112z
+								 M143.281,92.892L143.281,92.892c-0.502-0.246-1.005-0.5-1.515-0.623c-3.153-1.383-5.928-3.266-7.698-6.277
+								c-0.757-1.253-1.384-2.506-2.017-3.759c-7.318,2.129-11.863,10.536-9.963,18.19c2.011,8.407,10.721,13.549,19.044,11.542
+								c7.697-1.882,13.123-9.659,11.739-17.437C149.588,93.898,146.435,93.399,143.281,92.892z"/>
+							<path id="XMLID_191_" fill="#FFFFFF" d="M46.639,91.763c0.63-1.629,1.259-3.259,2.017-4.888
+								c4.417-9.536,15.013-14.555,25.235-11.796c9.084,2.383,15.646,10.413,16.279,19.573c0.758,11.918-8.455,22.079-20.441,22.955
+								c-9.715,0.63-19.305-5.642-22.332-15.431c-0.127-0.623-0.506-1.13-0.757-1.753C46.639,97.534,46.639,94.652,46.639,91.763z
+								 M78.431,84.116c-2.145,1.752-3.911,3.512-6.055,5.018c-2.145,1.376-4.417,2.505-6.686,3.758c1.008,1.26,1.515,2.636,0.379,4.142
+								c-0.757,1.006-1.766,1.629-3.157,1.383c-2.141-0.506-2.774-2.013-2.774-4.019c-2.647,0.376-5.047,0.753-7.443,1.129
+								c-0.505,7.024,4.542,13.678,10.852,15.308c8.452,2.259,16.021-1.13,19.299-9.037C85.502,95.651,83.856,88.25,78.431,84.116z"/>
+							<path id="XMLID_188_" fill="#FFFFFF" d="M113.883,37.822c-0.372,2.129-0.758,4.266-1.261,6.395
+								c-0.255,1.007,0.379,1.26,0.889,1.506c4.034,2.137,7.063,5.271,9.081,9.16c4.165,8.154,2.526,17.69-3.787,24.462
+								c-6.438,7.023-17.536,8.66-25.481,4.642c-12.752-6.395-16.531-22.832-6.693-33.622c1.391-1.629,3.153-2.882,4.922-4.135
+								c2.396-1.636,4.799-3.389,7.319-4.642c2.272-1.26,4.792-2.013,7.313-2.889c0.386-0.124,0.888,0.253,1.391,0.753
+								c1.516-0.63,3.029-1.13,4.421-1.76C112.622,37.822,113.255,37.822,113.883,37.822z M110.983,77.968
+								c5.295-2.76,8.957-9.16,7.319-17.191c-1.392-6.271-7.574-11.289-14.383-11.666c-7.443-0.376-14.136,4.643-16.022,11.543
+								c-1.77,6.524,1.129,13.802,7.188,17.314c1.763-5.396,4.165-7.531,8.455-7.401C107.072,70.814,109.724,73.326,110.983,77.968z"/>
+							<path id="XMLID_172_" fill="#FFFFFF" d="M107.954,133.921c-1.894,0-3.408-1.506-3.408-3.266c0-1.506,1.77-3.259,3.408-3.259
+								c1.646,0,3.16,1.506,3.16,3.136C111.114,132.285,109.6,133.791,107.954,133.921z"/>
+							<path id="XMLID_171_" fill="#FFFFFF" d="M98.363,133.921c-1.763,0-3.277-1.383-3.277-3.266c0-1.753,1.638-3.259,3.277-3.259
+								c1.639,0,3.153,1.63,3.153,3.259C101.647,132.285,100.133,133.791,98.363,133.921z"/>
+							<path id="XMLID_170_" fill="#FFFFFF" d="M132.685,92.892c1.771,0,3.154,1.383,3.277,3.136c0,1.636-1.638,3.389-3.277,3.389
+								c-1.645,0-3.159-1.629-3.159-3.389C129.4,94.398,130.916,92.892,132.685,92.892z"/>
+							<path id="XMLID_169_" fill="#FFFFFF" d="M143.281,92.892c0.51,0.377,0.882,0.753,1.392,1.26c1.005,1.13,1.005,2.506,0.247,3.635
+								c-0.882,1.383-2.272,1.883-3.401,1.506c-1.515-0.5-2.396-1.506-2.396-3.013C138.992,93.775,140.252,92.892,143.281,92.892
+								L143.281,92.892z"/>
+							<path id="XMLID_168_" fill="#FFFFFF" d="M73.005,98.417c-1.766,0-3.277-1.383-3.277-3.012s1.387-3.266,3.026-3.266
+								c1.766-0.123,3.407,1.383,3.532,3.266C76.286,96.911,74.775,98.417,73.005,98.417z"/>
+							<path id="XMLID_167_" fill="#FFFFFF" d="M110.853,64.042c0,1.63-1.384,3.006-3.153,3.006c-1.639,0-3.029-1.499-3.029-3.136
+								c0-1.629,1.391-2.882,3.029-2.882C109.6,60.907,110.983,62.284,110.853,64.042z"/>
+							<path id="XMLID_166_" fill="#FFFFFF" d="M98.363,67.048c-1.639,0-2.898-1.376-2.898-3.006c0-1.759,1.384-3.136,3.029-3.012
+								c1.639,0,2.898,1.376,3.022,3.012C101.393,65.549,100.002,67.048,98.363,67.048z"/>
+							<path id="XMLID_2_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M98.494,11.478
+								c48.919,0,88.569,39.427,88.569,88.069c0,48.635-39.65,88.062-88.569,88.062c-48.915,0-88.57-39.427-88.57-88.062
+								C9.924,50.905,49.579,11.478,98.494,11.478z"/>
+						</g>
+					</svg>
+				</div>
+				<div class="col-sm-3 genre_box" data-id="literary">
+					<span>LITERARY</span>
+					<svg version="1.1" id="genre_box_literary" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Literary">
+							<path id="XMLID_260_" fill="#FFFFFF" d="M61.731,101.279c3.314-1.157,6.89-2.054,9.95-3.597
+								c8.806-4.496,15.696-11.311,22.075-18.759c0.512-0.646,1.024-1.157,1.531-1.803c5.616,3.984,11.225,7.967,16.845,11.95
+								c-5.62,6.558-7.652,14.522-8.677,22.616c-0.766,5.399-1.02,10.8-1.531,16.452c-13.78,0.259-25.904,5.653-36.75,14.649
+								c0.254-0.386,0.383-0.771,0.637-1.156c5.87-8.738,11.741-17.477,17.481-26.214c0.513-0.771,1.021-1.157,1.916-1.157
+								c1.403-0.134,2.423-1.031,2.807-2.441c0.383-1.29-0.637-3.212-1.786-3.729c-1.404-0.64-2.553-0.127-3.701,0.77
+								c-1.021,1.031-0.892,2.189-0.508,3.473c0.125,0.512,0.125,1.283-0.129,1.669c-5.996,9.382-12.123,18.632-18.118,28.016
+								c-0.129,0.126-0.254,0.26-0.512,0.386c0.512-2.699,1.149-5.14,1.661-7.714c1.786-10.281,1.786-20.428-1.916-30.323
+								c-0.383-0.897-0.895-1.669-1.273-2.573C61.731,101.539,61.731,101.406,61.731,101.279z"/>
+							<path id="XMLID_259_" fill="#FFFFFF" d="M136.762,78.152c-5.487,5.14-10.849,10.147-16.462,15.421
+								c-2.938-2.062-5.745-4.116-8.551-6.045c-7.91-5.653-15.821-11.179-23.734-16.831c-0.892-0.646-1.149-1.157-0.767-2.188
+								c2.169-6.55,4.085-13.106,6.253-19.656c0.129-0.26,0.129-0.646,0.129-0.905c0.125,0,0.254,0,0.254,0
+								c0.255,0.259,0.383,0.385,0.637,0.645c13.78,9.636,27.562,19.278,41.217,28.914c0.257,0.26,0.633,0.26,0.898,0.386
+								C136.762,77.893,136.762,78.019,136.762,78.152z"/>
+							<path id="XMLID_13_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M99.243,9.91
+								c49.475,0,89.577,40.394,89.577,90.212c0,49.826-40.103,90.213-89.577,90.213c-49.472,0-89.574-40.387-89.574-90.213
+								C9.669,50.304,49.771,9.91,99.243,9.91z"/>
+						</g>
+					</svg>
+				</div>
+				<div class="col-sm-3 genre_box" data-id="music">
+					<span>MUSIC</span>
+					<svg version="1.1" id="genre_box_music" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Music">
+							<path id="XMLID_98_" fill="#FFFFFF" d="M40.396,131.53c0.388-1.284,0.645-2.701,1.162-3.984c1.549-3.731,4.387-6.426,7.873-8.488
+								c3.482-2.056,7.095-3.599,10.967-4.372c2.708-0.511,4.773-1.795,6.063-3.983c2.067-3.34,4-6.813,5.936-10.286
+								c1.55-2.567,2.968-5.142,4.774-7.583c1.419-1.796,3.222-3.086,5.039-4.497c0.64-0.519,1.414-0.772,2.316-0.898
+								c2.711-0.646,4.261,0.898,3.486,3.599c-0.127,0.639-0.387,1.158-0.774,1.67c-2.838,4.244-1.295,7.458,1.288,10.284
+								c0.387,0.386,0.775,0.772,1.289,1.284c1.81-1.804,3.486-3.472,5.169-5.143c13.415-13.498,26.835-26.996,40.25-40.367
+								c0.774-0.772,1.422-1.543,1.169-2.827c-0.261-1.284,0.514-2.057,1.675-2.701c4.648-2.441,9.162-4.883,13.802-7.324
+								c2.973-1.676,4.268-1.292,6.197,1.543c0,0.765,0,1.669,0,2.442c-0.901,1.41-2.324,2.182-4,2.441
+								c-2.063,0.386-3.352,1.795-4.387,3.726c-1.035,1.929-2.19,3.859-3.612,5.402s-3.352,2.315-5.422,1.796
+								c-1.154-0.253-1.676,0.133-2.323,0.905c-9.803,10.669-19.611,21.341-29.42,31.878c-6.189,6.686-12.252,13.372-18.449,20.057
+								c-0.253,0.26-0.388,0.512-0.648,0.646c2.07,3.985,6.323,6.04,9.682,4.623c0.515-0.252,1.036-0.638,1.542-0.897
+								c0.774-0.387,1.424-0.771,2.197-1.032c1.675-0.385,3.099,0.646,2.711,2.316c-0.261,1.543-1.036,3.086-2.063,4.118
+								c-1.421,1.409-3.226,2.307-4.9,3.339c-2.197,1.417-4.647,2.574-6.845,3.985c-3.099,1.928-4.9,4.629-5.675,8.354
+								c-0.648,3.599-1.937,7.071-3.486,10.284c-2.45,5.269-6.063,9.261-11.998,10.544c-1.033,0-2.063,0-3.099,0
+								c-2.193-0.771-4.513-1.283-6.45-2.44c-7.097-3.859-12.385-9.772-17.034-16.332c-2.194-3.214-3.482-6.813-4.126-10.538
+								C40.396,132.94,40.396,132.169,40.396,131.53z M64.268,144.383c1.162-1.157,2.066-2.181,3.099-3.339
+								c-2.324-2.441-4.519-4.631-6.581-6.946c-1.161,1.031-2.193,2.063-3.354,3.087C59.754,139.627,61.948,141.941,64.268,144.383z
+								 M84.526,122.915c0,0,0.26-0.771,0-1.023c-2.19-2.063-4.387-3.992-6.58-6.048c-0.518,0.134-0.775,0.646,0.131,1.291
+								C80.139,119.19,82.335,120.986,84.526,122.915z M78.202,129.342c0.13,0,0.388,0,0.519,0c0-0.387,0.256-1.024,0.13-1.283
+								c-2.067-2.182-4.13-4.371-6.196-6.554c-0.127,0-0.385,0.127-0.515,0.127c0,0.512-0.257,1.157,0,1.41
+								C74.076,125.23,76.14,127.286,78.202,129.342z M73.816,134.231c-2.582-2.188-4.901-4.244-7.482-6.561c0,0.388-0.261,1.032,0,1.284
+								c2.194,2.063,4.387,3.985,6.58,5.915c-0.13,0.133-0.26,0.259-0.387,0.52C72.914,135.129,73.171,134.87,73.816,134.231z"/>
+							<path id="XMLID_55_" fill="#FFFFFF" d="M151.878,42.701c0.134,0.253,0.521,0.638,0.521,0.897c0,0.513-0.26,1.024-0.521,1.411
+								c-0.253,0.259-0.901,0.259-1.154,0c-0.395-0.252-0.521-0.771-0.647-1.284c0-0.386,0.253-0.771,0.387-1.158
+								C150.851,42.701,151.371,42.701,151.878,42.701z"/>
+							<path id="XMLID_54_" fill="#FFFFFF" d="M145.302,46.04c0.774-0.512,1.422-1.158,1.802-1.158c0.521,0,1.297,0.899,1.169,1.284
+								c-0.134,0.519-0.774,1.158-1.295,1.291C146.464,47.457,145.949,46.685,145.302,46.04z"/>
+							<path id="XMLID_53_" fill="#FFFFFF" d="M140.4,50.538c-0.773,0.645-1.295,1.29-1.676,1.29c-0.521,0-1.296-0.771-1.296-1.157
+								c0.127-0.52,0.774-1.157,1.296-1.291C139.105,49.253,139.627,50.025,140.4,50.538z"/>
+							<path id="XMLID_52_" fill="#FFFFFF" d="M142.851,46.552c0.648,0.905,1.289,1.417,1.162,1.803c-0.133,0.512-0.773,0.898-1.288,1.411
+								c-0.395-0.512-1.035-0.899-1.035-1.411C141.689,47.842,142.33,47.324,142.851,46.552z"/>
+							<path id="XMLID_9_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M99.236,8.76
+								c50.023,0,90.583,40.402,90.583,90.247c0,49.838-40.56,90.247-90.583,90.247c-50.026,0-90.583-40.409-90.583-90.247
+								C8.653,49.162,49.209,8.76,99.236,8.76z"/>
+						</g>
+					</svg>
+
+				</div>
+				<div class="col-sm-3 genre_box" data-id="photography">
+					<span>PHOTOGRAPHY</span>
+					<svg version="1.1" id="genre_box_photography" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Photography">
+							<path id="XMLID_84_" fill="#FFFFFF" d="M158.72,65.358c0,24.228,0,48.582,0,72.802c-2.075,3.909-5.318,5.082-9.475,4.946
+								c-8.949-0.127-17.9,0-26.851,0c-0.778,0-1.558-0.127-2.336,0.136c-4.936,1.691-9.736,3.383-14.665,5.074c-3.373,0-6.748,0-10.122,0
+								c-4.411-1.429-8.954-2.864-13.365-4.293c-1.167-0.392-2.463-0.917-3.632-0.917c-9.082-0.127-18.166-0.127-27.247,0
+								c-4.411,0.136-7.527-1.3-9.343-5.337c0-23.964,0-47.921,0-71.886c2.075-4.69,5.969-6.253,10.639-5.472
+								c1.299-4.69,2.595-5.601,7.138-5.601c2.074,0,4.28-0.256,6.358,0.135c1.558,0.256,3.112,1.429,4.28,2.473
+								c0.648,0.647,0.779,1.955,1.037,2.737c2.337,0,4.674,0,7.007,0c0-2.48,0.131-4.826,0-7.036c-0.258-3.383,0.91-5.863,3.763-7.426
+								c12.197,0,24.529,0,36.722,0c3.116,2.089,3.767,5.081,3.505,8.599c-0.134,1.954,0,3.909,0,6.119c1.169,0,1.947,0,2.854,0
+								c7.917,0,15.698,0.263,23.614-0.128C153.268,60.021,156.517,61.193,158.72,65.358z M134.063,107.814
+								c0-18.883-15.181-33.985-33.859-33.985c-18.814,0-33.996,15.237-33.868,34.248c0,18.755,15.312,33.856,33.995,33.856
+								C119.152,141.934,134.199,126.696,134.063,107.814z M100.204,51.038c-2.337,0-4.542,0-6.879,0
+								c-3.764,0.128-5.838,2.211-5.838,6.119c0,4.299,1.816,6.645,5.711,6.773c4.801,0.128,9.471,0.128,14.271,0
+								c3.767-0.128,5.707-2.474,5.707-6.645c0-3.902-2.074-6.119-5.707-6.248C104.877,50.903,102.537,51.038,100.204,51.038z
+								 M149.642,78.647c0-4.036-3.242-7.298-7.265-7.298c-4.021,0-7.272,3.262-7.272,7.298c0,4.165,3.251,7.42,7.399,7.42
+								C146.526,85.939,149.642,82.684,149.642,78.647z"/>
+							<path id="XMLID_74_" fill="#FFFFFF" d="M73.604,107.949c0-14.718,11.935-26.7,26.6-26.7c14.657,0,26.857,12.245,26.729,26.956
+								c-0.134,14.719-12.072,26.572-26.729,26.572C85.412,134.643,73.604,122.66,73.604,107.949z"/>
+							<path id="XMLID_4_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M98.905,7.019
+								c50.305,0,91.083,40.928,91.083,91.422c0,50.494-40.778,91.422-91.083,91.422c-50.306,0-91.088-40.928-91.088-91.422
+								C7.817,47.947,48.599,7.019,98.905,7.019z"/>
+						</g>
+					</svg>
+
+				</div>
+			</div>
+			<div class="row allGenres_row">
+				<div class="col-sm-3 col-sm-offset-3 genre_box" data-id="quiz">
+					<span>QUIZ</span>
+					<svg version="1.1" id="genre_box_quiz" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Quiz">
+							<path id="XMLID_6_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M100.063,6.837
+								c50.948,0,92.259,41.161,92.259,91.925c0,50.771-41.311,91.925-92.259,91.925c-50.956,0-92.263-41.153-92.263-91.925
+								C7.801,47.998,49.107,6.837,100.063,6.837z"/>
+							<path id="XMLID_121_" fill="#FFFFFF" d="M85.863,85.543c0-6.024,0-11.92,0-17.944c28.257,0,56.385,0,84.901,0
+								c0,5.76,0,11.784,0,17.944C142.636,85.543,114.386,85.543,85.863,85.543z"/>
+							<path id="XMLID_120_" fill="#FFFFFF" d="M85.992,98.369c20.239,0,40.349,0,60.588,0c0,6.024,0,11.92,0,18.072
+								c-20.11,0-40.213,0-60.588,0C85.992,110.553,85.992,104.529,85.992,98.369z"/>
+							<path id="XMLID_119_" fill="#FFFFFF" d="M115.568,146.434c-9.854,0-19.579,0-29.576,0c0-6.024,0-11.92,0-17.944
+								c9.725,0,19.587,0,29.576,0C115.568,134.249,115.568,140.145,115.568,146.434z"/>
+							<path id="XMLID_25_" fill="#FFFFFF" d="M40.131,117.099c3.285-3.273,6.702-6.682,10.12-10.083
+								c-3.417-3.408-6.835-6.81-10.251-10.083c1.315-1.308,2.628-2.623,3.811-3.801c3.285,3.272,6.702,6.681,10.253,10.218
+								c3.542-3.537,6.963-6.945,10.248-10.347c1.313,1.308,2.503,2.487,3.679,3.666c-3.414,3.408-6.827,6.681-10.248,10.211
+								c3.549,3.537,6.964,6.811,10.248,10.219c-1.313,1.309-2.496,2.487-3.808,3.794c-3.292-3.272-6.707-6.673-10.12-10.211
+								c-3.418,3.538-6.835,6.81-10.12,10.211C42.627,119.714,41.314,118.407,40.131,117.099z"/>
+							<path id="XMLID_20_" fill="#FFFFFF" d="M41.971,76.238c1.445-1.308,2.891-2.615,4.335-3.922c2.105,2.222,4.074,4.58,6.308,6.938
+								c5.394-5.238,10.779-10.348,15.907-15.321c1.441,1.307,2.884,2.487,4.333,3.794c0,0.135,0.128,0.264,0.128,0.393
+								c-0.257,0.136-0.523,0.264-0.789,0.393c-5.78,5.631-11.561,11.134-17.341,16.764c-1.71,1.572-3.288,1.572-4.866-0.128
+								c-2.363-2.623-4.862-5.374-7.226-7.99C42.366,76.768,42.233,76.503,41.971,76.238z"/>
+							<path id="XMLID_8_" fill="#FFFFFF" d="M41.971,138.443c1.445-1.314,2.891-2.622,4.335-3.93c2.105,2.222,4.074,4.58,6.308,6.938
+								c5.394-5.238,10.779-10.34,15.907-15.321c1.441,1.308,2.884,2.487,4.333,3.802c0,0.129,0.128,0.258,0.128,0.394
+								c-0.257,0.129-0.523,0.257-0.789,0.393c-5.78,5.631-11.561,11.127-17.341,16.758c-1.71,1.571-3.288,1.571-4.866-0.129
+								c-2.363-2.622-4.862-5.374-7.226-7.989C42.366,139.094,42.233,138.837,41.971,138.443z"/>
+						</g>
+					</svg>
+				</div>
+				<div class="col-sm-3 genre_box" data-id="social">
+					<span>SOCIAL</span>
+					<svg version="1.1" id="genre_box_social" height="80%" width="80%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="198.43px" height="198.43px" viewBox="0 0 198.43 198.43" enable-background="new 0 0 198.43 198.43" xml:space="preserve">
+						<g id="Social">
+							<path id="XMLID_45_" fill="#FFFFFF" d="M77.164,38.208c15.003,0,30.14,0,45.142,0c0.135,1.054,0.263,1.972,0.263,3.026
+								c0,11.956,0,23.918,0,36.01c0,0.919,0,1.972,0,3.02c1.567,0,2.606,0,3.518,0c13.442,0,26.885,0,40.32,0
+								c1.047,0,2.215,0.266,3.261,0.395c0,13.275,0,26.551,0,39.826c-1.046,0.129-2.214,0.523-3.261,0.523c-13.436,0-26.878,0-40.32,0
+								c-1.04,0-2.215,0-3.518,0c0,1.441,0,2.366,0,3.414c0,11.964,0,23.919,0,35.882c0,1.972-0.526,2.761-3.005,2.761
+								c-13.306-0.137-26.486-0.137-39.79,0c-2.61,0-3.133-0.789-3.133-2.89c0.132-11.963,0-23.919,0-35.882c0-0.919,0-1.973,0-3.285
+								c-15.788,0-31.182,0-46.579,0c0-13.799,0-27.204,0-40.873c15.657,0,31.054,0,46.579,0c0-6.707,0-13.01,0-19.451
+								C77.033,53.19,77.164,45.702,77.164,38.208z M100.518,74.612c-0.391,0-0.918,0-1.303,0.137
+								c-4.179,8.276-8.352,16.689-12.395,24.965c-1.438,2.89-2.481,5.917-3.393,9.073c-1.567,6.046,1.174,12.092,6.917,15.635
+								c5.738,3.421,13.435,3.421,19.046-0.129c5.739-3.551,8.479-9.597,6.785-15.643c-0.783-2.625-1.566-5.387-2.876-7.882
+								C109.126,92.09,104.825,83.419,100.518,74.612z"/>
+							<path id="XMLID_39_" fill="#FFFFFF" d="M87.21,106.42c0.392,8.937,4.828,14.459,13.828,17.349c-4.437,0.789-9-0.788-12.004-4.21
+								C85.645,115.88,85.121,111.677,87.21,106.42z"/>
+							<path id="XMLID_3_" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-miterlimit="10" d="M101.038,8.508
+								c50.588,0,91.591,41.304,91.591,92.261c0,50.95-41.003,92.261-91.591,92.261c-50.584,0-91.588-41.311-91.588-92.261
+								C9.45,49.812,50.454,8.508,101.038,8.508z"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div id="genre" class="theatre_screen">
+			<div id="genre_close" class="close_button">X</div>
+			<object id='genre_logo' type="image/svg+xml" data="" width='35%' height='35%'></object>
+			<div class="row genre_events_row" style="margin-top:10px;">
+				<div class="col-sm-4 events" id="event_1" data-id=""></div>
+				<div class="col-sm-4 events" id="event_2" data-id=""></div>
+				<div class="col-sm-4 events" id="event_3" data-id=""></div>
+			</div>
+			<div class="row genre_events_row">
+				<div class="col-sm-4 events" id="event_4" data-id=""></div>
+				<div class="col-sm-4 events" id="event_5" data-id=""></div>
+				<div class="col-sm-4 events" id="event_6" data-id=""></div>
+			</div>
+			<div class="row genre_events_row">
+				<div class="col-sm-4 events" id="event_7" data-id=""></div>
+				<div class="col-sm-4 events" id="event_8" data-id=""></div>
+				<div class="col-sm-4 events" id="event_9" data-id=""></div>
+			</div>
+		</div>
+		<div id="event" class="theatre_screen">
+			<div id="event_close" class="close_button">X</div>
+			<object id='event_background_logo' type="image/svg+xml" data="" width='35%' height='35%'></object>
+			<div class="container-fluid" style="width:100%;height:100%;overflow:hidden;">
+				<div id="event_title" class="row"></div>
+				<div id="event_tagline" class="row"></div>
+				<div id="event_wrapper" class="row">
+					<div id="event_writeup" class="row"></div>
+					<div id="rules_label" class="row">RULES:</div>
+					<div id="rules" class="row"></div>
+				</div>
+				<div id="registration_status" class="row">
+					<a href="register">
+						<button id="register">REGISTER</button>
+					</a>
+					<div id="registration_closed">Registrations are closed</div>
+				</div>
+			</div>
+		</div>
+		<object id='inner_theatre' type="image/svg+xml" data="assets/svg/inner-theatre.svg" width='100%' height='100%'>Your browser does not support SVG</object>
+	</div>	
+
+	<div style="min-height:500"></div>
+
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

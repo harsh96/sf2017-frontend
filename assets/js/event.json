@@ -1,0 +1,944 @@
+data = {
+  "code": 0,
+  "message": {
+    "Dance": [
+      {
+        "id": 1,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Dramatics": [
+      {
+        "id": 2,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 3,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      }
+    ],
+    "Music": [
+      {
+        "id": 4,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 5,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 6,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Humor Fest": [
+      {
+        "id": 7,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 8,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 9,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 10,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Finearts": [
+      {
+        "id": 7,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 8,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 9,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 10,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Informals": [
+      {
+        "id": 7,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 8,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 9,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 10,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Photography": [
+      {
+        "id": 7,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 8,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 9,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      },
+      {
+        "id": 10,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Quiz": [
+      {
+        "id": 1,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      }
+    ],
+    "Social": [
+      {
+        "id": 2,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 3,
+        "event": "Lorem Epsum",
+        "tagline": "Lorem epsum dolor sit",
+        "writeup": "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae. Et nec dicunt persius. At qui iisque fabulas consectetuer, dicit soleat graeco cu sea.",
+        "rules": {
+          "general": [
+            "Lorem ipsum dolor sit amet, vix",
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea, quidam molestiaepopulo tacimates ea, quidam molestiae",
+            "sea accusam argumentum appellantur. Magna accusam argumentum appellantur "
+          ],
+          "rule_sub_heading2": [
+            "Magna vocent prodesset vel eu, cu nec animal definitiones. Ad vivendo tibique apeirian ius, eum labore eirmod ne, ne mel reque nostrum copiosae",
+            "Lorem ipsum dolor sit amet, vix populo tacimates ea, quidam molestiae eum an, in sea accusam argumentum appellantur. Magna vocent prodesset vel",
+            "Lorem ipsum dolor sit amet, vix"
+          ],
+          "rule_sub_heading3": [
+            "populo tacimates ea, quidam molestiae eum an populo tacimates ea",
+            "vix populo tacimates ea, quidam molestiae eum an,",
+            "ipsum dolor sit amet, vix"
+          ]
+        },
+        "min_participation": "2",
+        "max_participation": "6",
+        "is_group": "1",
+        "event_status": "0"
+      }
+    ],
+    "Literary": [
+      {
+        "id": 100,
+        "event": "Creative Writing (Online)",
+        "tagline": "hbvj",
+        "writeup": "ygvubj",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 101,
+        "event": "National Level Debate",
+        "tagline": "ygubj",
+        "writeup": "ygvbuj",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "3",
+        "is_group": "1",
+        "event_status": "1"
+      },
+      {
+        "id": 102,
+        "event": "JAM",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 103,
+        "event": "Impromptu",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 104,
+        "event": "India Calling",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 105,
+        "event": "Might Pen",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 106,
+        "event": "Dumb C",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 107,
+        "event": "Jumble The Good Word",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      },
+      {
+        "id": 108,
+        "event": "Poetry Slam",
+        "tagline": "tfvbhj",
+        "writeup": "ytgvujh",
+        "rules": {
+          "rule_sub_heading1": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading2": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ],
+          "rule_sub_heading3": [
+            "rule1",
+            "rule2",
+            "rule3"
+          ]
+        },
+        "min_participation": "1",
+        "max_participation": "1",
+        "is_group": "0",
+        "event_status": "1"
+      }
+    ],
+  },
+  "status_code": 200
+}

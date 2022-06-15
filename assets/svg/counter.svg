@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="334 40 1280 800" height="768" width="1366" style="enable-background:new 334 -4 1280 800;" preserveAspectRatio="none" xml:space="preserve">
+<style type="text/css">
+	@font-face {
+      font-family: 'acme';
+      src: url('../css/acme.ttf');
+    }
+	.st0{fill:#6E0000;}
+	.st1{fill:#640000;}
+	.st2{fill:#5A0000;}
+	.st3{fill:#500000;}
+	.st4{fill:#460000;}
+	.st5{fill:#410000;}
+	.st6{fill:#3C0000;}
+	.st7{fill:#370000;}
+	.st8{fill:#210D02;}
+	.st9{fill:#50260A;}
+	.st10{opacity:0.1;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st11{opacity:0.1;fill:url(#SVGID_2_);enable-background:new    ;}
+	.st12{opacity:0.4;enable-background:new    ;}
+	.st13{opacity:0.2;enable-background:new    ;}
+	.st14{opacity:0.3;enable-background:new    ;}
+	.st15{fill:#0A0501;}
+	.st16{fill:#270F00;}
+	.st17{fill:#1E0B00;}
+	.st18{opacity:0.75;fill:url(#XMLID_9_);enable-background:new    ;}
+	.st19{fill:url(#XMLID_10_);}
+	.st20{fill:url(#XMLID_11_);}
+	.st21{clip-path:url(#SVGID_4_);fill:#210A00;}
+	.st22{opacity:0.22;enable-background:new    ;}
+	.st23{fill:#110501;}
+	.st24{fill:#210D02;}
+	.st25{fill:#131212;}
+	.st26{fill:#000000;}
+	.st27{fill:#515151;}
+	.st28{fill:#333333;}
+	.st29{fill:#1E1E1E;}
+	.st30{fill:#FFFFFF;}
+	.st31{font-family:'acme';}
+	.st32{font-size:17px;}
+	.st33{enable-background:new    ;}
+	.st34{font-family:'MyriadPro-Bold';}
+	.st35{fill:#ffffff;}
+	.st36{fill:#000000;}
+	.st37{fill:#190702;}
+	.st38{opacity:0.1;enable-background:new    ;}
+	.st39{fill:#F9F7F7;}
+	.st40{fill:#1C0D00;}
+	.st41{fill:#110501;}
+	.st42{fill:#C2C3C9;}
+	.st43{fill:#9A999E;}
+	.st44{fill:#281303;}
+	.st45{fill:#1C0801;}
+	.st46{fill:#636262;}
+	.st47{fill:#A09F9F;}
+	.st48{fill:#EAE8E8;}
+	.st49{fill:#F9F9F9;}
+	.st50{display:none;}
+	.st51{display:inline;fill:#636262;}
+	.st52{display:inline;fill:#A09F9F;}
+	.st53{display:inline;fill:#EAE8E8;}
+	.st54{display:inline;fill:#F9F9F9;}
+	.st55{opacity:0.1;fill:url(#XMLID_12_);enable-background:new    ;}
+	.st56{opacity:0.1;fill:url(#XMLID_13_);enable-background:new    ;}
+	.st57{opacity:0.1;fill:url(#XMLID_14_);enable-background:new    ;}
+	.st58{opacity:0.1;fill:url(#XMLID_15_);enable-background:new    ;}
+	.st59{opacity:0.1;fill:url(#XMLID_30_);enable-background:new    ;}
+	.st60{fill:#160801;}
+	.st61{fill:#1B0E06;}
+	.st62{fill:#F9E8A5;}
+	.st63{opacity:0.1;fill:url(#XMLID_34_);enable-background:new    ;}
+	.opacity_zero{opacity:0;}
+</style>
+	<defs>  
+        <!-- a transparent grey drop-shadow that blends with the background colour -->
+        <filter id="shadow" width="1.5" height="1.5" x="-.25" y="-.25">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
+            <feColorMatrix result="bluralpha" type="matrix" values=
+                    "1 0 0 0   0
+                     0 1 0 0   0
+                     0 0 1 0   0
+                     0 0 0 0.4 0 "/>
+            <feOffset in="bluralpha" dx="3" dy="3" result="offsetBlur"/>
+            <feMerge>
+                <feMergeNode in="offsetBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- a transparent grey glow with no offset -->
+        <filter id="black-glow">
+            <feColorMatrix type="matrix" values=
+                        "0 0 0 0   0
+                         0 0 0 0   0
+                         0 0 0 0   0
+                         0 0 0 0.7 0"/>
+            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- a transparent glow that takes on the colour of the object it's applied to -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+    </defs>
+<g id="counter_wrapper">    
+	<g id="Layer_1_1_">
+		<g id="Union2_1_">
+			<g id="XMLID_206_">
+				<g id="Floor">
+					<polygon class="st0" points="1325.7,530.8 850.6,528.7 889,480.4 1286.2,480.4 				"/>
+					<polygon class="st1" points="1394.8,566.1 1149.4,565.9 1166.4,529.1 1377.5,529.1 				"/>
+					<polygon class="st2" points="1467.5,597 331.3,591.3 400.5,554.4 1394.8,554.4 				"/>
+					<polygon class="st3" points="1541.9,633.3 1082.4,638 1113,591.5 1514,591.5 				"/>
+					<polygon class="st4" points="1660,675 1074.4,674.7 1110.2,633.3 1628.1,633.3 				"/>
+					<polygon class="st5" points="1614,716.4 492.5,716.4 551.7,674 1613.7,674.4 				"/>
+					<polygon class="st6" points="1614,756.3 326,756.3 326,734.2 349.5,716.7 1614,713 				"/>
+					<polygon class="st7" points="326,798.3 326,754 1676,754.3 1616.1,754.3 1616.1,798.3 				"/>
+				</g>
+				<g id="Corridor">
+					<polygon points="1463.4,613.6 1154.3,423 1155.1,191.6 1463.6,182.6 				"/>
+					<g>
+						<g id="XMLID_207_">
+							<rect id="XMLID_248_" x="1224.5" y="112.2" class="st8" width="10.8" height="353.6"/>
+							<rect id="XMLID_247_" x="1325.7" y="119.8" class="st8" width="11.6" height="386.9"/>
+							<rect id="XMLID_246_" x="1313.2" y="118.5" class="st8" width="10.8" height="380.5"/>
+							<rect id="XMLID_245_" x="1299.7" y="116" class="st8" width="11.6" height="383.1"/>
+							<rect id="XMLID_244_" x="1237" y="90.4" class="st8" width="11.6" height="370.3"/>
+							<rect id="XMLID_243_" x="1250.5" y="116" class="st8" width="10.8" height="370.3"/>
+							<rect id="XMLID_242_" x="1338.2" y="88.4" class="st8" width="12.5" height="424"/>
+							<rect id="XMLID_241_" x="1351.7" y="81.6" class="st8" width="10.8" height="436.4"/>
+							<rect id="XMLID_240_" x="1363.3" y="89.8" class="st8" width="11.6" height="433.6"/>
+							<rect id="XMLID_239_" x="1376.8" y="90.4" class="st8" width="10.8" height="443.1"/>
+							<rect id="XMLID_238_" x="1288.1" y="116" class="st8" width="9.9" height="383.1"/>
+							<rect id="XMLID_237_" x="1274.6" y="116" class="st8" width="11.6" height="381.8"/>
+							<rect id="XMLID_236_" x="1262.1" y="116" class="st8" width="11.6" height="370.3"/>
+							<rect id="XMLID_235_" x="1389.3" y="89.8" class="st8" width="10.8" height="443.8"/>
+							<rect id="XMLID_234_" x="1401.8" y="83.6" class="st8" width="11.6" height="458.2"/>
+							<rect id="XMLID_233_" x="1414.4" y="92.3" class="st8" width="10.8" height="459.2"/>
+							<rect id="XMLID_232_" x="1426.9" y="91" class="st8" width="11.6" height="460.4"/>
+							<rect id="XMLID_231_" x="1452.8" y="90.4" class="st8" width="11.6" height="461.7"/>
+							<rect id="XMLID_230_" x="1439.4" y="90.4" class="st8" width="12.5" height="461.7"/>
+							<rect id="XMLID_229_" x="1465.3" y="85.9" class="st8" width="10.8" height="465.5"/>
+							<rect id="XMLID_213_" x="1148.5" y="123.5" class="st8" width="11.6" height="311.9"/>
+							<rect id="XMLID_212_" x="1161" y="112.3" class="st8" width="11.6" height="318.9"/>
+							<rect id="XMLID_211_" x="1173.5" y="115.2" class="st8" width="11.6" height="330.8"/>
+							<rect id="XMLID_210_" x="1198.6" y="82.3" class="st8" width="11.6" height="363.7"/>
+							<rect id="XMLID_209_" x="1186.1" y="104.7" class="st8" width="11.6" height="341.3"/>
+							<rect id="XMLID_208_" x="1211.1" y="82.3" class="st8" width="11.6" height="363.7"/>
+						</g>
+						<polygon class="st9" points="1475,475.2 1221.1,419.7 1216.9,439.8 1472.8,530.8 					"/>
+						
+							<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="3489.6567" y1="571.03" x2="3489.657" y2="5.6931" gradientTransform="matrix(-1 0 0 1 4733.5137 4)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st10" d="M1183.2,507.6c0,0,121.2-1163.9,121.2,67.5L1183.2,507.6z"/>
+						
+							<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="3316.9739" y1="602.1019" x2="3316.9741" y2="-17.0482" gradientTransform="matrix(-1 0 0 1 4733.5137 4)">
+							<stop  offset="0" style="stop-color:#FFFFAC;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFFFD"/>
+						</linearGradient>
+						<path class="st11" d="M1355.9,538.6c0,0,111.9-1285.1,121.2,67.5L1355.9,538.6z"/>
+					</g>
+					<g>
+						<polygon class="st4" points="1224.9,467 1224.9,439.8 1718,593.1 1551.8,666.2 					"/>
+						<polygon class="st5" points="1224.5,497.7 1224.9,467 1747.4,665.9 1558.8,658.6 					"/>
+						<polygon class="st12" points="1341.4,554 1594.6,554.2 1713,591.1 1536.9,648.4 					"/>
+						<polygon class="st13" points="1221.1,477.5 1224.9,439.8 1415.5,499 1225.8,499 					"/>
+						<polygon class="st14" points="1415.5,499 1594.6,554.2 1341.4,554 1225.8,499 					"/>
+					</g>
+				</g>
+				<g id="Left_wall">
+					<g id="XMLID_294_">
+						<image style="overflow:visible;" width="180" height="764" xlink:href="E15CA650.png"  transform="matrix(1 0 0 1 298 8)">
+						</image>
+					</g>
+					<polygon id="XMLID_271_" points="334,630 437.2,587.9 426.6,662 334,735.2 				"/>
+				</g>
+				<g id="Right_wall">
+					<g id="XMLID_273_">
+						<image style="overflow:visible;" width="183" height="725" xlink:href="E15CA651.png"  transform="matrix(1 0 0 1 1467 7)">
+						</image>
+					</g>
+					<polygon id="XMLID_272_" class="st15" points="1614,614.9 1503.7,573.6 1503.7,656.8 1614,709.7 				"/>
+				</g>
+				<g id="Front_wall">
+					<g>
+						<image style="overflow:visible;" width="861" height="639" xlink:href="E15CA657.png"  transform="matrix(1 0 0 1 401 52)">
+						</image>
+					</g>
+					<g>
+						<image style="overflow:visible;" width="352" height="517" xlink:href="E15CA652.png"  transform="matrix(1 0 0 1 1190 136)">
+						</image>
+					</g>
+					<rect x="1460.4" y="575.1" width="45.6" height="83.2"/>
+					<rect x="1142.9" y="575.3" class="st15" width="83.1" height="79.2"/>
+					<polygon class="st16" points="1460.6,658.9 1449.8,651.2 1449.8,244.7 1462.4,240.8 				"/>
+					<polygon class="st15" points="1449.8,571.6 1460.9,575.4 1460.9,658.6 1449.8,651.2 				"/>
+					<polygon class="st17" points="1225.8,240.8 1460.4,240.8 1449.5,247.5 1225.8,247.5 				"/>
+				</g>
+			</g>
+			<g id="XMLID_366_">
+				<g>
+					<path id="XMLID_369_" class="st6" d="M450,516.4c0,0-1.3,7.7,8.1,7.7c9.4,0,96.8,0,96.8,0s7.2-0.3,7.2-6.7S562,444,562,444
+						s-1.6-31.2-56-31.2c-53.4,0-56.2,28.8-56.1,31.5C450,447,450,516.4,450,516.4z"/>
+					
+						<linearGradient id="XMLID_9_" gradientUnits="userSpaceOnUse" x1="505.9116" y1="379.1239" x2="505.9116" y2="339.4239" gradientTransform="matrix(1 0 0 -1 0 792)">
+						<stop  offset="0" style="stop-color:#C80000"/>
+						<stop  offset="0.5018" style="stop-color:#E60000;stop-opacity:0.4982"/>
+						<stop  offset="1" style="stop-color:#FF0000;stop-opacity:0"/>
+					</linearGradient>
+					<path id="XMLID_367_" class="st18" d="M449.8,452.5l0.4-10.4c0,0,2.6-29.3,56.1-29.3c50.7,0,55.4,29.5,55.4,29.5l0.5,10.1
+						c0,0-8.1-28.4-56.2-28.3C458,424.2,449.8,450,449.8,452.5z"/>
+				</g>
+				<g id="XMLID_61_">
+					<path id="XMLID_63_" class="st6" d="M656.3,517.1c0,0-1.4,7.7,8.5,7.7c9.9,0,102,0,102,0s7.6-0.3,7.6-6.7s-0.1-73.4-0.1-73.4
+						s-1.7-31.2-59-31.2c-56.3,0-59.2,28.8-59.1,31.5S656.3,517.1,656.3,517.1z"/>
+					
+						<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="715.25" y1="378.3989" x2="715.25" y2="338.6989" gradientTransform="matrix(1 0 0 -1 0 792)">
+						<stop  offset="0" style="stop-color:#C80000"/>
+						<stop  offset="0.5018" style="stop-color:#E60000;stop-opacity:0.4982"/>
+						<stop  offset="1" style="stop-color:#FF0000;stop-opacity:0"/>
+					</linearGradient>
+					<path id="XMLID_62_" class="st19" d="M656,453.3l0.4-10.4c0,0,2.7-29.3,59.1-29.3c53.4,0,58.4,29.5,58.4,29.5l0.5,10.1
+						c0,0-8.5-28.4-59.2-28.3C664.8,425,656,450.8,656,453.3z"/>
+				</g>
+				<g id="XMLID_64_">
+					<path id="XMLID_66_" class="st6" d="M894.1,516.4c0,0-1.4,7.7,8.5,7.7s102,0,102,0s7.6-0.3,7.6-6.7s-0.1-73.4-0.1-73.4
+						s-1.7-31.2-59-31.2c-56.3,0-59.2,28.8-59.1,31.5C894.1,447,894.1,516.4,894.1,516.4z"/>
+					
+						<linearGradient id="XMLID_11_" gradientUnits="userSpaceOnUse" x1="952.95" y1="379.1239" x2="952.95" y2="339.4239" gradientTransform="matrix(1 0 0 -1 0 792)">
+						<stop  offset="0" style="stop-color:#C80000"/>
+						<stop  offset="0.5018" style="stop-color:#E60000;stop-opacity:0.4982"/>
+						<stop  offset="1" style="stop-color:#FF0000;stop-opacity:0"/>
+					</linearGradient>
+					<path id="XMLID_65_" class="st20" d="M893.8,452.5l0.4-10.4c0,0,2.7-29.3,59.1-29.3c53.4,0,58.4,29.5,58.4,29.5l0.5,10.1
+						c0,0-8.5-28.4-59.2-28.3C902.5,424.2,893.8,450,893.8,452.5z"/>
+				</g>
+			</g>
+		</g>
+		<g id="Counter">
+			<rect x="348.8" y="536.7" width="796.5" height="197.9"/>
+			<g id="XMLID_22_">
+				<defs>
+					<rect id="SVGID_3_" x="348.8" y="536.7" width="796.5" height="197.9"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+				<rect id="XMLID_21_" x="891" y="262.5" class="st21" width="29.7" height="506.6"/>
+				<rect id="XMLID_20_" x="923" y="247.2" class="st21" width="29.7" height="591.4"/>
+				<rect id="XMLID_16_" x="954.9" y="252.5" class="st21" width="29.7" height="525.2"/>
+				<rect id="XMLID_19_" x="986.6" y="266.3" class="st21" width="29.7" height="510.8"/>
+				<rect id="XMLID_18_" x="1018.6" y="244.9" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_17_" x="1050.5" y="250.2" class="st21" width="29.7" height="527.5"/>
+				<rect id="XMLID_5_" x="1082.4" y="293.9" class="st21" width="29.7" height="481.9"/>
+				<rect id="XMLID_67_" x="1114.2" y="293.9" class="st21" width="29.7" height="481.9"/>
+				<rect id="XMLID_25_" x="794.2" y="261.1" class="st21" width="29.7" height="506.6"/>
+				<rect id="XMLID_24_" x="826.1" y="245.5" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_23_" x="858.1" y="247.4" class="st21" width="29.7" height="537.3"/>
+				<rect id="XMLID_29_" x="698.4" y="257.2" class="st21" width="29.7" height="506.6"/>
+				<rect id="XMLID_28_" x="730.3" y="240.9" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_27_" x="762.3" y="243.5" class="st21" width="29.7" height="537.3"/>
+				<rect id="XMLID_33_" x="602.1" y="254.5" class="st21" width="29.7" height="597.1"/>
+				<rect id="XMLID_32_" x="634.1" y="233.1" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_31_" x="666" y="236.9" class="st21" width="29.7" height="537.3"/>
+				<rect id="XMLID_42_" x="505.5" y="255.2" class="st21" width="29.7" height="597.1"/>
+				<rect id="XMLID_38_" x="537.4" y="233.8" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_36_" x="569.4" y="237.5" class="st21" width="29.7" height="537.3"/>
+				<rect id="XMLID_46_" x="409.7" y="245.8" class="st21" width="29.7" height="597.1"/>
+				<rect id="XMLID_45_" x="441.6" y="224.4" class="st21" width="29.7" height="610.5"/>
+				<rect id="XMLID_44_" x="473.6" y="229.5" class="st21" width="29.7" height="537.3"/>
+				<rect id="XMLID_49_" x="348.8" y="222.7" class="st21" width="25.7" height="610.5"/>
+				<rect id="XMLID_48_" x="376.8" y="228.1" class="st21" width="29.7" height="537.3"/>
+			</g>
+			<rect id="XMLID_134_" x="348.8" y="536.7" class="st22" width="792.7" height="7"/>
+			<rect id="XMLID_133_" x="343.4" y="519.4" class="st23" width="807.1" height="18"/>
+			<polygon class="st24" points="343.4,519.4 375,497.7 1117.5,497.7 1150.5,519.4 		"/>
+			<g id="Monitor_2">
+				<polygon id="XMLID_59_" class="st25" points="916.3,411.2 1062.5,411.2 1068.3,414.5 1068.3,414.5 919.7,504.6 916.3,503 			"/>
+				<rect id="XMLID_58_" x="919.7" y="414.5" class="st26" width="148.6" height="90.1"/>
+				<polygon id="XMLID_60_" class="st27" points="957.1,480.4 1029.9,480.4 1031.2,481.5 1031.2,481.5 956.4,481.5 			"/>
+				<rect id="XMLID_57_" x="956.4" y="481.5" class="st28" width="74.8" height="25.5"/>
+				<rect id="XMLID_56_" x="984.3" y="495" class="st29" width="15.1" height="18.6"/>
+				<rect id="XMLID_6_" x="984.3" y="495.3" class="st26" width="14.5" height="18.3"/>
+				<text transform="matrix(1 0 0 1 957.4 461.7748)" class="st30 st31 st32">   LOG IN </text>
+			</g>
+			<g id="Monitor_1">
+				<polygon id="XMLID_7_" class="st25" points="673,408.4 822.8,408.4 822.8,408.4 826.2,411.7 677.6,501.8 673.7,500.5 			"/>
+				<rect id="XMLID_145_" x="677.6" y="411.7" class="st26" width="148.6" height="90.1"/>
+				<polygon id="XMLID_54_" class="st27" points="715.1,477.6 787.7,477.6 789.1,478.1 789.1,478.7 714.3,478.7 			"/>
+				<rect id="XMLID_144_" x="714.3" y="478.7" class="st28" width="74.8" height="25.5"/>
+				<rect id="XMLID_55_" x="742.3" y="492.2" class="st29" width="15.1" height="18.6"/>
+				<rect id="XMLID_142_" x="742.3" y="492.5" class="st26" width="14.5" height="18.3"/>
+				<text transform="matrix(1 0 0 1 713.9 461.7255)" class="st33"><tspan x="0" y="0" class="st30 st31 st32">REGISTER</tspan><tspan x="73.2" y="0" class="st30 st34 st32"> </tspan></text>
+			</g>
+			<g id="Register">
+				<path class="st26" d="M594.9,511.3h-117c-3.2,0-5.8-2.6-5.8-5.8v-51.1c0-3.2,2.6-5.8,5.8-5.8h117c3.2,0,5.8,2.6,5.8,5.8v51.1
+					C600.7,508.7,598.1,511.3,594.9,511.3z"/>
+					<text transform="matrix(1 0 0 1 520.4 486.7748)" class="st30 st31 st32">FAQ</text>
+				<rect x="511" y="498.4" class="st35" width="49.5" height="12.5"/>
+				<rect x="491.4" y="445.3" class="st35" width="88.6" height="16.9"/>
+			</g>
+		</g>
+		<g id="Top_Banners">
+			<polygon id="XMLID_4_" class="st36" points="432.6,173.9 1512.3,173.9 1505.6,180 436.8,180 		"/>
+			<rect id="XMLID_1_" x="432.6" y="124.2" class="st23" width="1079.7" height="50.5"/>
+			<g id="Pronites__x28_glow_x29_">
+				<g>
+					<polygon class="st37" points="606.1,579.3 484.4,579.3 482.6,577.2 604.3,549.4 606.1,551.7 				"/>
+				</g>
+				<g>
+					<g class="st38">
+						
+					</g>
+					<g>
+						<rect x="482.6" y="549.4" class="st23" width="121.7" height="27.6"/>
+					</g>
+				</g>
+				<text transform="matrix(0.909 0 0 1 507.5508 569.5352)" class="st39 st31 st32">PRONITES</text>
+			</g>
+			<g id="Sponsors_x28_glow_x29_">
+				<g>
+					<polygon class="st37" points="999.3,579.3 877.6,579.3 875.7,577.2 997.5,549.4 999.3,551.7 				"/>
+				</g>
+				<g>
+					<g class="st38">
+						
+					</g>
+					<g>
+						<rect x="875.7" y="549.4" class="st23" width="121.7" height="27.6"/>
+					</g>
+				</g>
+				<text transform="matrix(0.909 0 0 1 895.1128 569.5352)" class="st39 st31 st32">SPONSORS</text>
+			</g>
+			<g>
+				<rect id="XMLID_3_" x="445.3" y="584.8" class="st23" width="592.7" height="122.2"/>
+				<polygon class="st40" points="1037.6,584.6 1043.1,590 1043.1,709.7 1037.7,706.3 			"/>
+				<polygon points="1043.1,709.7 452.7,709.7 445.3,706.4 1037.7,706.3 			"/>
+				
+					<image id="sponsors" class="opacity_zero" style="overflow:visible;" width="678" height="381" xlink:href="dear zindagi.png"  transform="matrix(0.2921 0 0 0.2921 834.9512 589.6165)">
+				</image>
+				
+					<image id="pronites" class="opacity_zero" style="overflow:visible;" width="514" height="294" xlink:href="shivaay.png"  transform="matrix(0.3718 0 0 0.3791 449.6667 590.0961)">
+				</image>
+				<g class="st33">
+					
+						<image id="contact_us" class="opacity_zero" style="overflow:visible;" width="1037" height="645" xlink:href="Untitled-1-[Recovered]-compressor.png"  transform="matrix(0.1905 0 0 0.1995 640.1686 582.0365)">
+					</image>
+				</g>
+			</g>
+			<g id="Contact_us_x28_glow_x29_">
+				<g>
+					<polygon class="st37" points="801,579.2 679.3,579.2 677.5,577 799.2,549.4 801,551.6 				"/>
+				</g>
+				<g>
+					<g class="st38">
+					</g>
+					<g>
+						<rect x="677.5" y="549.4" class="st23" width="121.7" height="27.6"/>
+					</g>
+				</g>
+				<text transform="matrix(0.909 0 0 1 688.0181 569.5352)" class="st39 st31 st32">CONTACT US</text>
+			</g>
+		</g>
+		<g id="Ceiling_2_">
+			<polyline class="st41" points="1542.8,-4 1523.7,96.7 429.4,96.7 421.8,-4 		"/>
+			<g>
+				<g>
+					<polygon class="st30" points="885.2,52.7 866.1,20.3 1061.6,20.3 1042.6,52.7 				"/>
+					<path class="st42" d="M1057.1,22.8l-16,27.4H886.7l-16.1-27.4H1057.1 M1066.2,17.6H861.6l22.2,37.7h160.3L1066.2,17.6
+						L1066.2,17.6z"/>
+				</g>
+				<rect x="860.6" y="11.1" class="st43" width="205.6" height="6.6"/>
+			</g>
+			<g id="Ceiling_1_">
+				<rect id="XMLID_193_" x="441.7" y="91.7" class="st15" width="1056.7" height="33.6"/>
+				<polygon id="XMLID_192_" class="st44" points="502.3,72.7 1446.5,72.7 1445.9,108.7 503.4,108.7 			"/>
+				<polygon id="upper_strip_2_" class="st15" points="1431,125.7 1542.8,-4 1614,-4 1614,47.1 1512.3,125.3 			"/>
+				<polygon id="XMLID_191_" class="st45" points="1492.3,-4 1446.5,72.7 1445.7,109.2 1542.8,-4 			"/>
+				<polygon id="XMLID_190_" class="st45" points="455.5,-4 502.7,72.7 503.1,108.5 417.1,-4 			"/>
+				<polygon id="upper_strip_1_" class="st15" points="516.7,125.1 421.8,-4 334,-4 334,47.1 432.6,125.3 			"/>
+			</g>
+			<g id="Lights">
+				<g id="light">
+					<g id="XMLID_166_">
+						<g id="XMLID_183_">
+							<path id="XMLID_187_" class="st46" d="M1552.3,55.7c0,4.3,5.6,7.2,17.1,7.2s17.1-2.8,17.1-7c0-1.7-0.1-3.4-1-4.6
+								c-2.3-2.9-7.9-3.8-16.1-3.8c-6,0-12.1,1.3-14.9,2.8C1552,51.6,1552.3,53.1,1552.3,55.7z"/>
+							<ellipse id="XMLID_186_" class="st47" cx="1569.4" cy="56.6" rx="17.1" ry="6.3"/>
+							<ellipse id="XMLID_185_" class="st48" cx="1569.3" cy="56.8" rx="13.4" ry="4.8"/>
+							<path id="XMLID_184_" class="st49" d="M1571.8,61.6c0,0,18.4-3.8-0.3-9.5c0,0,10.7,0.8,11.2,4.5
+								C1583.2,60.3,1571.8,61.6,1571.8,61.6z"/>
+						</g>
+						<g id="XMLID_68_" class="st50">
+							<path id="XMLID_75_" class="st51" d="M1287.4,44.7c0,4.3,5.6,7.2,17.1,7.2s17.1-2.8,17.1-7c0-1.7-0.1-3.4-1-4.6
+								c-2.3-2.9-7.9-3.8-16.1-3.8c-6,0-12.1,1.3-14.9,2.8C1287.1,40.6,1287.4,42.1,1287.4,44.7z"/>
+							<ellipse id="XMLID_74_" class="st52" cx="1304.5" cy="45.6" rx="17.1" ry="6.3"/>
+							<ellipse id="XMLID_73_" class="st53" cx="1304.4" cy="45.8" rx="13.4" ry="4.8"/>
+							<path id="XMLID_72_" class="st54" d="M1306.9,50.6c0,0,18.4-3.8-0.3-9.5c0,0,10.7,0.8,11.2,4.5S1306.9,50.6,1306.9,50.6z"/>
+						</g>
+						<g id="XMLID_76_" class="st50">
+							<path id="XMLID_80_" class="st51" d="M589.1,44.7c0,4.3,5.6,7.2,17.1,7.2s17.1-2.8,17.1-7c0-1.7-0.1-3.4-1-4.6
+								c-2.3-2.9-7.9-3.8-16.1-3.8c-6,0-12.1,1.3-14.9,2.8C588.8,40.6,589.1,42.1,589.1,44.7z"/>
+							<ellipse id="XMLID_79_" class="st52" cx="606.2" cy="45.6" rx="17.1" ry="6.3"/>
+							<ellipse id="XMLID_78_" class="st53" cx="606.1" cy="45.8" rx="13.4" ry="4.8"/>
+							<path id="XMLID_77_" class="st54" d="M608.6,50.6c0,0,18.4-3.8-0.3-9.5c0,0,10.7,0.8,11.2,4.5S608.6,50.6,608.6,50.6z"/>
+						</g>
+						
+							<linearGradient id="XMLID_12_" gradientUnits="userSpaceOnUse" x1="-562.175" y1="230.6667" x2="-562.175" y2="45.6667" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+							<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFEF6"/>
+						</linearGradient>
+						<path id="XMLID_167_" filter="url('#glow')" class="st55 opacity_zero" d="M1551.2,238.7c0,0,14.8-416.3,34.3,0H1551.2z"/>
+						
+							<linearGradient id="XMLID_13_" gradientUnits="userSpaceOnUse" x1="607.725" y1="230.6667" x2="607.725" y2="45.6667" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+							<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+							<stop  offset="1" style="stop-color:#FFFEF6"/>
+						</linearGradient>
+						<path id="XMLID_2_" class="st56 opacity_zero" d="M381.3,238.7c0,0,14.8-416.3,34.3,0H381.3z"/>
+						<g id="XMLID_161_">
+							<path id="XMLID_165_" class="st46" d="M415.5,59.7c0,4.3-5.6,7.2-17.1,7.2s-17.1-2.8-17.1-7c0-1.7,0.1-3.4,1-4.6
+								c2.3-2.9,7.9-3.8,16.1-3.8c6,0,12.1,1.3,14.9,2.8C415.8,55.6,415.5,57.1,415.5,59.7z"/>
+							<ellipse id="XMLID_164_" class="st47" cx="398.4" cy="60.6" rx="17.1" ry="6.3"/>
+							<ellipse id="XMLID_163_" class="st48" cx="398.5" cy="60.8" rx="13.4" ry="4.8"/>
+							<path id="XMLID_162_" class="st49" d="M396,65.6c0,0-18.4-3.8,0.3-9.5c0,0-10.7,0.8-11.2,4.5C384.6,64.3,396,65.6,396,65.6z"
+								/>
+						</g>
+					</g>
+				</g>
+				<g id="lights_2_">
+					<g id="XMLID_150_">
+						<g id="l4">
+							<g id="XMLID_178_">
+								<path id="XMLID_182_" class="st46" d="M1333.2,179.1c0,1.6,3.9,2.7,12,2.7s12-1,12-2.7c0-0.6-0.1-1.3-0.7-1.7
+									c-1.6-1.1-5.5-1.4-11.3-1.4c-4.2,0-8.5,0.5-10.4,1C1333,177.5,1333.2,178.1,1333.2,179.1z"/>
+								<ellipse id="XMLID_181_" class="st47" cx="1345.1" cy="179.4" rx="12" ry="2.4"/>
+								<ellipse id="XMLID_180_" class="st48" cx="1345.1" cy="179.5" rx="9.4" ry="1.8"/>
+								<path id="XMLID_179_" class="st49" d="M1346.8,181.3c0,0,12.9-1.4-0.2-3.6c0,0,7.5,0.3,7.8,1.7
+									C1354.8,180.8,1346.8,181.3,1346.8,181.3z"/>
+							</g>
+						</g>
+						<g id="l3">
+							<g id="XMLID_173_">
+								<path id="XMLID_177_" class="st46" d="M1045.2,179.1c0,1.6,3.9,2.7,12,2.7c8.1,0,12-1,12-2.7c0-0.6-0.1-1.3-0.7-1.7
+									c-1.6-1.1-5.5-1.4-11.3-1.4c-4.2,0-8.5,0.5-10.4,1C1045,177.5,1045.2,178.1,1045.2,179.1z"/>
+								<ellipse id="XMLID_176_" class="st47" cx="1057.1" cy="179.4" rx="12" ry="2.4"/>
+								<ellipse id="XMLID_175_" class="st48" cx="1057.1" cy="179.5" rx="9.4" ry="1.8"/>
+								<path id="XMLID_174_" class="st49" d="M1058.8,181.3c0,0,12.9-1.4-0.2-3.6c0,0,7.5,0.3,7.8,1.7
+									C1066.8,180.8,1058.8,181.3,1058.8,181.3z"/>
+							</g>
+							
+								<linearGradient id="XMLID_14_" gradientUnits="userSpaceOnUse" x1="-51.075" y1="237.2267" x2="-51.075" y2="170.1201" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+								<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+								<stop  offset="1" style="stop-color:#FFFEF6"/>
+							</linearGradient>
+							<path id="XMLID_172_" class="st57 opacity_zero" d="M1039.8,245.2c0,0,12.8-145.6,34.8-7.9L1039.8,245.2z"/>
+						</g>
+						<g id="l2">
+							
+								<linearGradient id="XMLID_15_" gradientUnits="userSpaceOnUse" x1="470.525" y1="236.6221" x2="470.525" y2="169.5155" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+								<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+								<stop  offset="1" style="stop-color:#FFFEF6"/>
+							</linearGradient>
+							<path id="XMLID_170_"  filter="url('#glow')" class="st58 opacity_zero" d="M518.2,244.6c0,0,12.8-145.6,34.8-7.9L518.2,244.6z"/>
+							<g id="XMLID_156_">
+								<path id="XMLID_160_" class="st46" d="M547.6,179.1c0,1.6-3.9,2.7-12,2.7c-8.1,0-12-1-12-2.7c0-0.6,0.1-1.3,0.7-1.7
+									c1.6-1.1,5.5-1.4,11.3-1.4c4.2,0,8.5,0.5,10.4,1C547.8,177.5,547.6,178.1,547.6,179.1z"/>
+								<ellipse id="XMLID_159_" class="st47" cx="535.7" cy="179.4" rx="12" ry="2.4"/>
+								<ellipse id="XMLID_158_" class="st48" cx="535.7" cy="179.5" rx="9.4" ry="1.8"/>
+								<path id="XMLID_157_" class="st49" d="M534,181.3c0,0-12.9-1.4,0.2-3.6c0,0-7.5,0.3-7.8,1.7C526,180.8,534,181.3,534,181.3z"
+									/>
+							</g>
+						</g>
+						<g id="l1">
+							
+								<linearGradient id="XMLID_30_" gradientUnits="userSpaceOnUse" x1="218.525" y1="238.8893" x2="218.525" y2="171.7827" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+								<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+								<stop  offset="1" style="stop-color:#FFFEF6"/>
+							</linearGradient>
+							<path id="XMLID_171_" class="st59 opacity_zero" d="M770.2,246.9c0,0,12.8-145.6,34.8-7.9L770.2,246.9z"/>
+							<g id="XMLID_151_">
+								<path id="XMLID_155_" class="st46" d="M799.6,179.1c0,1.6-3.9,2.7-12,2.7c-8.1,0-12-1-12-2.7c0-0.6,0.1-1.3,0.7-1.7
+									c1.6-1.1,5.5-1.4,11.3-1.4c4.2,0,8.5,0.5,10.4,1C799.8,177.5,799.6,178.1,799.6,179.1z"/>
+								<ellipse id="XMLID_154_" class="st47" cx="787.7" cy="179.4" rx="12" ry="2.4"/>
+								<ellipse id="XMLID_153_" class="st48" cx="787.7" cy="179.5" rx="9.4" ry="1.8"/>
+								<path id="XMLID_152_" class="st49" d="M786,181.3c0,0-12.9-1.4,0.2-3.6c0,0-7.5,0.3-7.8,1.7C778,180.8,786,181.3,786,181.3z"
+									/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="Events">
+		<polygon id="XMLID_69_" class="st60" points="1305.7,209.1 1299.4,204.3 1384,204.3 1391,208.6 	"/>
+		<rect id="_x3C_Rectangle_x3E__x28_glow_yellow_x29_" x="1304" y="208.2" class="st8" width="87.1" height="27.8"/>
+		<polygon id="XMLID_71_" class="st61" points="1304.5,236 1304,208.2 1299.4,204.3 1299.4,233.1 	"/>
+		<text id="EVENTS__x28_glow_yellow_x29_" transform="matrix(1 0 0 1 1315.5215 227.0191)" class="st62 st31 st32">EVENTS</text>
+	</g>
+	<linearGradient id="XMLID_34_" gradientUnits="userSpaceOnUse" x1="-340.475" y1="238.8893" x2="-340.475" y2="171.7827" gradientTransform="matrix(-1 0 0 1 1006.125 8)">
+		<stop  offset="0" style="stop-color:#FFFEF6;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#FFFEF6"/>
+	</linearGradient>
+	<path id="XMLID_168_" class="st63 opacity_zero" d="M1329.2,246.9c0,0,12.8-145.6,34.8-7.9L1329.2,246.9z"/>
+</g>
+
+</svg>
